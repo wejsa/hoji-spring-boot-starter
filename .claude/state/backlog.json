@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 20,
+    "version": 21,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-18T15:21:11Z"
   },
@@ -139,7 +139,7 @@
       "assignee": "jaese@hoji-20260619-000720",
       "assignedAt": "2026-06-18T15:07:20Z",
       "lockedBy": "jaese@hoji-20260619-000720",
-      "lockedAt": "2026-06-18T15:21:11Z",
+      "lockedAt": "2026-06-18T15:27:42Z",
       "lockTTL": 10800,
       "lockedFiles": [
         "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/GlobalExceptionHandler.kt",
@@ -160,15 +160,16 @@
         {
           "number": 2,
           "title": "GlobalExceptionHandler(B2·B4) + AutoConfiguration",
-          "status": "pending"
+          "status": "pr_created",
+          "prNumber": 5
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-merge-pr",
-        "prNumber": null,
+        "currentSkill": "aick-impl",
+        "prNumber": 5,
         "fixLoopCount": null,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T15:21:11Z"
+        "updatedAt": "2026-06-18T15:27:42Z"
       }
     },
     {
