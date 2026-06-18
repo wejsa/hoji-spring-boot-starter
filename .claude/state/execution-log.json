@@ -41,5 +41,26 @@
     "stepNumber": 1,
     "prNumber": 2,
     "timestamp": "2026-06-18T23:49:49+09:00"
+  },
+  {
+    "action": "pr_created",
+    "taskId": "HOJI-002",
+    "stepNumber": 2,
+    "prNumber": 3,
+    "timestamp": "2026-06-18T14:54:02Z"
+  },
+  {
+    "action": "reviewed",
+    "taskId": "HOJI-002",
+    "stepNumber": 2,
+    "prNumber": 3,
+    "decision": "COMMENT",
+    "tier": "T2",
+    "findings": {
+      "critical": 0,
+      "major": 2,
+      "minor": 2
+    },
+    "timestamp": "2026-06-18T14:58:42Z"
   }
 ]
