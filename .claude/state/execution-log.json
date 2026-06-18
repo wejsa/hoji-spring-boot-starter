@@ -181,5 +181,12 @@
     "action": "task_completed",
     "taskId": "HOJI-004",
     "prNumber": 7
+  },
+  {
+    "timestamp": "2026-06-18T16:29:31Z",
+    "action": "pr_created",
+    "taskId": "HOJI-005",
+    "stepNumber": 1,
+    "prNumber": 8
   }
 ]

@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 33,
+    "version": 34,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-18T16:05:15Z"
   },
@@ -231,7 +231,7 @@
       "assignee": "jaese@hoji-20260618-161739",
       "assignedAt": "2026-06-18T16:17:39Z",
       "lockedBy": "jaese@hoji-20260618-161739",
-      "lockedAt": "2026-06-18T16:22:53Z",
+      "lockedAt": "2026-06-18T16:29:31Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
@@ -246,14 +246,15 @@
         {
           "number": 1,
           "title": "시퀀스 조회 빌딩블록 + 자동설정",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/OracleSequenceRepository.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfiguration.kt",
             "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfigurationTest.kt"
-          ]
+          ],
+          "prNumber": 8
         },
         {
           "number": 2,
@@ -265,7 +266,14 @@
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfigurationTest.kt"
           ]
         }
-      ]
+      ],
+      "workflowState": {
+        "currentSkill": "aick-impl",
+        "prNumber": 8,
+        "fixLoopCount": 0,
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T16:29:31Z"
+      }
     },
     {
       "id": "HOJI-006",
