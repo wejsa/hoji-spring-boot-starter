@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 48,
+    "version": 49,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:43:29Z"
+    "updatedAt": "2026-06-18T23:47:05Z"
   },
   "summary": {
     "total": 7,
@@ -336,9 +336,44 @@
       "assignee": "jaese@hoji-20260618-234329",
       "assignedAt": "2026-06-18T23:43:29Z",
       "lockedBy": "jaese@hoji-20260618-234329",
-      "lockedAt": "2026-06-18T23:43:29Z",
-      "lockTTL": 3600,
-      "lockedFiles": []
+      "lockedAt": "2026-06-18T23:47:05Z",
+      "lockTTL": 7200,
+      "lockedFiles": [
+        "build.gradle.kts",
+        "settings.gradle.kts",
+        "hoji-smoke-test/build.gradle.kts",
+        "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/SmokeApplication.kt",
+        "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/StarterCompositionSmokeTest.kt",
+        "hoji-smoke-test/src/test/resources/application.yml",
+        "README.md"
+      ],
+      "planApprovedAt": "2026-06-18T23:47:05Z",
+      "currentStep": 1,
+      "steps": [
+        {
+          "number": 1,
+          "title": "maven-publish 발행 설정 확정 + 로컬 발행 검증",
+          "status": "pending",
+          "files": [
+            "build.gradle.kts"
+          ],
+          "prLineLimit": 200
+        },
+        {
+          "number": 2,
+          "title": "통합 스모크 검증 모듈 + 발행/소비 가이드(README)",
+          "status": "pending",
+          "files": [
+            "settings.gradle.kts",
+            "build.gradle.kts",
+            "hoji-smoke-test/build.gradle.kts",
+            "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/SmokeApplication.kt",
+            "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/StarterCompositionSmokeTest.kt",
+            "hoji-smoke-test/src/test/resources/application.yml",
+            "README.md"
+          ]
+        }
+      ]
     }
   ]
 }
