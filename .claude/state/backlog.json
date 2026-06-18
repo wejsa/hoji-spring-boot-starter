@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 42,
+    "version": 43,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:07:33Z"
+    "updatedAt": "2026-06-18T23:15:37Z"
   },
   "summary": {
     "total": 7,
@@ -282,7 +282,7 @@
       "assignee": "jaese@hoji-20260618-230134",
       "assignedAt": "2026-06-18T23:01:34Z",
       "lockedBy": "jaese@hoji-20260618-230134",
-      "lockedAt": "2026-06-18T23:07:33Z",
+      "lockedAt": "2026-06-18T23:15:37Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-security/build.gradle.kts",
@@ -323,12 +323,12 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-impl",
+        "currentSkill": "aick-review-pr",
         "currentStep": 1,
         "prNumber": 10,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T23:07:33Z"
+        "lastReviewDecision": "COMMENT",
+        "updatedAt": "2026-06-18T23:15:37Z"
       }
     },
     {
