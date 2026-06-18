@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 4,
+    "version": 5,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:09:41+09:00"
+    "updatedAt": "2026-06-18T23:20:21+09:00"
   },
   "summary": {
     "total": 7,
@@ -77,12 +77,12 @@
       ],
       "workflowState": {
         "currentSkill": "aick-review-pr",
-        "lastCompletedSkill": "aick-impl",
+        "lastCompletedSkill": "aick-review-pr",
         "prNumber": 1,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
+        "lastReviewDecision": "COMMENT",
         "autoChainArgs": "1 --auto-fix",
-        "updatedAt": "2026-06-18T23:09:41+09:00"
+        "updatedAt": "2026-06-18T23:20:21+09:00"
       }
     },
     "HOJI-002": {

@@ -1,11 +1,11 @@
-{
-  "entries": [
-    {
-      "action": "pr_created",
-      "prNumber": 1,
-      "stepNumber": 1,
-      "taskId": "HOJI-001",
-      "at": "2026-06-18T23:09:41+09:00"
-    }
-  ]
-}
+[
+  {
+    "action": "reviewed",
+    "decision": "COMMENT",
+    "taskId": "HOJI-001",
+    "stepNumber": 1,
+    "prNumber": 1,
+    "tier": "T3",
+    "at": "2026-06-18T23:20:36+09:00"
+  }
+]
