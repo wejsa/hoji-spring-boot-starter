@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 44,
+    "version": 45,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:19:43Z"
+    "updatedAt": "2026-06-18T23:29:40Z"
   },
   "summary": {
     "total": 7,
@@ -282,7 +282,7 @@
       "assignee": "jaese@hoji-20260618-230134",
       "assignedAt": "2026-06-18T23:01:34Z",
       "lockedBy": "jaese@hoji-20260618-230134",
-      "lockedAt": "2026-06-18T23:19:43Z",
+      "lockedAt": "2026-06-18T23:29:40Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthorizeRulesCustomizer.kt",
@@ -310,23 +310,24 @@
         {
           "number": 2,
           "title": "Security 6 체인 + 라우트 확장점 + auto-config",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthorizeRulesCustomizer.kt",
             "hoji-common-security/src/main/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfiguration.kt",
             "hoji-common-security/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
             "hoji-common-security/build.gradle.kts",
             "hoji-common-security/src/test/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfigurationTest.kt"
-          ]
+          ],
+          "prNumber": 11
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-merge-pr",
+        "currentSkill": "aick-impl",
         "currentStep": 2,
-        "prNumber": null,
+        "prNumber": 11,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T23:19:43Z"
+        "updatedAt": "2026-06-18T23:29:40Z"
       }
     },
     {
