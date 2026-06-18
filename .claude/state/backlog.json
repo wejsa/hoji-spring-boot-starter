@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 41,
+    "version": 42,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:03:33Z"
+    "updatedAt": "2026-06-18T23:07:33Z"
   },
   "summary": {
     "total": 7,
@@ -282,7 +282,7 @@
       "assignee": "jaese@hoji-20260618-230134",
       "assignedAt": "2026-06-18T23:01:34Z",
       "lockedBy": "jaese@hoji-20260618-230134",
-      "lockedAt": "2026-06-18T23:03:33Z",
+      "lockedAt": "2026-06-18T23:07:33Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-security/build.gradle.kts",
@@ -300,13 +300,14 @@
         {
           "number": 1,
           "title": "API-Key 인증 프리미티브 (Properties + Filter)",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyProperties.kt",
             "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthFilter.kt",
             "hoji-common-security/build.gradle.kts",
             "hoji-common-security/src/test/kotlin/com/hoji/common/security/ApiKeyAuthFilterTest.kt"
-          ]
+          ],
+          "prNumber": 10
         },
         {
           "number": 2,
@@ -320,7 +321,15 @@
             "hoji-common-security/src/test/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfigurationTest.kt"
           ]
         }
-      ]
+      ],
+      "workflowState": {
+        "currentSkill": "aick-impl",
+        "currentStep": 1,
+        "prNumber": 10,
+        "fixLoopCount": 0,
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T23:07:33Z"
+      }
     },
     {
       "id": "HOJI-007",
