@@ -209,5 +209,12 @@
     "taskId": "HOJI-005",
     "stepNumber": 2,
     "prNumber": 9
+  },
+  {
+    "timestamp": "2026-06-18T22:54:02Z",
+    "action": "approved",
+    "taskId": "HOJI-005",
+    "stepNumber": 2,
+    "prNumber": 9
   }
 ]
