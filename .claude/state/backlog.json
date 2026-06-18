@@ -2,16 +2,16 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 6,
+    "version": 7,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:24:03+09:00"
+    "updatedAt": "2026-06-18T23:31:15+09:00"
   },
   "summary": {
     "total": 7,
     "done": 1,
-    "inProgress": 0,
+    "inProgress": 1,
     "review": 0,
-    "todo": 6
+    "todo": 5
   },
   "phases": {
     "1": {
@@ -76,14 +76,20 @@
       "id": "HOJI-002",
       "title": "common-core util/page",
       "description": "Date/String(도메인전용함수삭제)/Random(SecureRandom유지)/File(B3삭제)/Zip(zip4j2.x재작성 M5)/CustomPageRequest(M6·M7·defaultSortProperty외부화)+단위테스트. 참조: 로컬스펙 common-core.md §1",
-      "status": "todo",
+      "status": "in_progress",
       "type": "feature",
       "priority": "high",
       "phase": 2,
       "dependencies": [
         "HOJI-001"
       ],
-      "createdAt": "2026-06-18T22:34:51+09:00"
+      "createdAt": "2026-06-18T22:34:51+09:00",
+      "assignee": "jaese@hoji-20260618-233115",
+      "assignedAt": "2026-06-18T23:31:15+09:00",
+      "lockedBy": "jaese@hoji-20260618-233115",
+      "lockedAt": "2026-06-18T23:31:15+09:00",
+      "lockTTL": 3600,
+      "lockedFiles": []
     },
     "HOJI-003": {
       "id": "HOJI-003",
