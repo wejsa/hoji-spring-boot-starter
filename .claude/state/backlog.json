@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 12,
+    "version": 13,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:40:30+09:00"
+    "updatedAt": "2026-06-18T14:54:02Z"
   },
   "summary": {
     "total": 7,
@@ -87,7 +87,7 @@
       "assignee": "jaese@hoji-20260618-233115",
       "assignedAt": "2026-06-18T23:31:15+09:00",
       "lockedBy": "jaese@hoji-20260618-233115",
-      "lockedAt": "2026-06-18T23:49:49+09:00",
+      "lockedAt": "2026-06-18T14:54:02Z",
       "lockTTL": 10800,
       "lockedFiles": [
         "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
@@ -119,19 +119,20 @@
         {
           "number": 2,
           "title": "common-core page",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/page/CustomPageRequestTest.kt"
-          ]
+          ],
+          "prNumber": 3
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-merge-pr",
-        "prNumber": null,
+        "currentSkill": "aick-impl",
+        "prNumber": 3,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T23:49:49+09:00"
+        "updatedAt": "2026-06-18T14:54:02Z"
       }
     },
     "HOJI-003": {
