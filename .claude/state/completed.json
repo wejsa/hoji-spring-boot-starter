@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": 3,
+    "version": 4,
     "updatedAt": "2026-06-18T15:38:21Z"
   },
   "tasks": {
@@ -32,6 +32,16 @@
       "priority": "high",
       "prNumber": 5,
       "completedAt": "2026-06-18T15:38:21Z",
+      "steps": 2
+    },
+    "HOJI-004": {
+      "id": "HOJI-004",
+      "title": "common-jpa audit/converter",
+      "phase": 2,
+      "type": "feature",
+      "priority": "high",
+      "prNumber": 7,
+      "completedAt": "2026-06-18T16:13:27Z",
       "steps": 2
     }
   }

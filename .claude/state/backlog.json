@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 30,
+    "version": 31,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-18T16:05:15Z"
   },
@@ -167,7 +167,7 @@
       "id": "HOJI-004",
       "title": "common-jpa audit/converter",
       "description": "BaseDomain(JPA Auditing), SystemBaseDomain(actor→String decouple), YesNoType/YesNoConverter, Base64Converter(core재사용,jakarta M1)+테스트. 참조: 로컬스펙 common-jpa.md §1,§2.1~2.3",
-      "status": "in_progress",
+      "status": "done",
       "type": "feature",
       "priority": "high",
       "phase": 2,
@@ -175,18 +175,12 @@
         "HOJI-002"
       ],
       "createdAt": "2026-06-18T22:34:51+09:00",
-      "assignee": "jaese@hoji-20260618-154141",
-      "assignedAt": "2026-06-18T15:41:41Z",
-      "lockedBy": "jaese@hoji-20260618-154141",
-      "lockedAt": "2026-06-18T16:05:15Z",
+      "assignee": null,
+      "assignedAt": null,
+      "lockedBy": null,
+      "lockedAt": null,
       "lockTTL": 10800,
-      "lockedFiles": [
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/Base64Converter.kt",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
-      ],
+      "lockedFiles": [],
       "planApprovedAt": "2026-06-18T15:43:28Z",
       "currentStep": 2,
       "steps": [
@@ -207,7 +201,7 @@
         {
           "number": 2,
           "title": "컨버터(YesNo/Base64) + 테스트",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
@@ -215,17 +209,12 @@
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
           ],
-          "prNumber": 7
+          "prNumber": 7,
+          "mergedAt": "2026-06-18T16:13:27Z"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "lastCompletedSkill": "aick-impl",
-        "prNumber": 7,
-        "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T16:12:21Z"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-18T16:13:27Z"
     },
     {
       "id": "HOJI-005",
