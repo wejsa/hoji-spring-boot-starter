@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "action": "pr_created",
+      "prNumber": 1,
+      "stepNumber": 1,
+      "taskId": "HOJI-001",
+      "at": "2026-06-18T23:09:41+09:00"
+    }
+  ]
+}

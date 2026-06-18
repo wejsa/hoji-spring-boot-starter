@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 3,
+    "version": 4,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T22:51:12+09:00"
+    "updatedAt": "2026-06-18T23:09:41+09:00"
   },
   "summary": {
     "total": 7,
@@ -44,7 +44,7 @@
       "assignee": "jaese@hoji-20260618-224951",
       "assignedAt": "2026-06-18T22:49:51+09:00",
       "lockedBy": "jaese@hoji-20260618-224951",
-      "lockedAt": "2026-06-18T22:51:12+09:00",
+      "lockedAt": "2026-06-18T23:09:41+09:00",
       "lockTTL": 7200,
       "lockedFiles": [
         "settings.gradle.kts",
@@ -61,7 +61,7 @@
           "number": 1,
           "title": "멀티모듈 Gradle 스캐폴딩",
           "description": "settings/루트/3모듈 build.gradle.kts + Gradle 8.x wrapper. 빈 모듈 ./gradlew build 통과.",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "settings.gradle.kts",
             "build.gradle.kts",
@@ -71,9 +71,19 @@
             "gradle/wrapper/gradle-wrapper.properties"
           ],
           "estimatedLines": 160,
-          "prLineLimit": 200
+          "prLineLimit": 200,
+          "prNumber": 1
         }
-      ]
+      ],
+      "workflowState": {
+        "currentSkill": "aick-review-pr",
+        "lastCompletedSkill": "aick-impl",
+        "prNumber": 1,
+        "fixLoopCount": 0,
+        "lastReviewDecision": null,
+        "autoChainArgs": "1 --auto-fix",
+        "updatedAt": "2026-06-18T23:09:41+09:00"
+      }
     },
     "HOJI-002": {
       "id": "HOJI-002",
