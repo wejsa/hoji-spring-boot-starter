@@ -91,5 +91,12 @@
     "decision": "COMMENT",
     "note": "T3 Full review: CRITICAL 0, MAJOR 1, MINOR 2 (advisory, self-PR)",
     "timestamp": "2026-06-18T15:19:32Z"
+  },
+  {
+    "action": "merged",
+    "taskId": "HOJI-003",
+    "stepNumber": 1,
+    "prNumber": 4,
+    "timestamp": "2026-06-18T15:21:11Z"
   }
 ]

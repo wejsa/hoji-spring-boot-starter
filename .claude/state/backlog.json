@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 19,
+    "version": 20,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T15:19:32Z"
+    "updatedAt": "2026-06-18T15:21:11Z"
   },
   "summary": {
     "total": 7,
@@ -139,31 +139,23 @@
       "assignee": "jaese@hoji-20260619-000720",
       "assignedAt": "2026-06-18T15:07:20Z",
       "lockedBy": "jaese@hoji-20260619-000720",
-      "lockedAt": "2026-06-18T15:12:08Z",
+      "lockedAt": "2026-06-18T15:21:11Z",
       "lockTTL": 10800,
       "lockedFiles": [
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ErrorReason.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/CommonErrorReason.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ErrorResponse.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ApplicationException.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/BadRequestException.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ExternalServiceException.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/InternalProcessException.kt",
         "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/GlobalExceptionHandler.kt",
         "hoji-common-core/src/main/kotlin/com/hoji/common/core/autoconfigure/CoreErrorAutoConfiguration.kt",
         "hoji-common-core/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/InternalProcessExceptionTest.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/CommonErrorReasonTest.kt",
         "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/GlobalExceptionHandlerTest.kt"
       ],
       "planApprovedAt": "2026-06-18T15:08:41Z",
-      "currentStep": 1,
+      "currentStep": 2,
       "steps": [
         {
           "number": 1,
           "title": "error 타입 + 예외 계층 (B1)",
-          "status": "pr_created",
-          "prNumber": 4
+          "status": "merged",
+          "prNumber": 4,
+          "mergedAt": "2026-06-18T15:21:11Z"
         },
         {
           "number": 2,
@@ -172,11 +164,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 4,
+        "currentSkill": "aick-merge-pr",
+        "prNumber": null,
         "fixLoopCount": null,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T15:19:32Z"
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T15:21:11Z"
       }
     },
     {
