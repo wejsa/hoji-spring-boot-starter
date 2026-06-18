@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 32,
+    "version": 33,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-18T16:05:15Z"
   },
@@ -231,10 +231,41 @@
       "assignee": "jaese@hoji-20260618-161739",
       "assignedAt": "2026-06-18T16:17:39Z",
       "lockedBy": "jaese@hoji-20260618-161739",
-      "lockedAt": "2026-06-18T16:17:39Z",
-      "lockTTL": 3600,
-      "lockedFiles": [],
-      "currentStep": 1
+      "lockedAt": "2026-06-18T16:22:53Z",
+      "lockTTL": 7200,
+      "lockedFiles": [
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/OracleSequenceRepository.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfiguration.kt",
+        "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfigurationTest.kt"
+      ],
+      "currentStep": 1,
+      "planApprovedAt": "2026-06-18T16:22:53Z",
+      "steps": [
+        {
+          "number": 1,
+          "title": "시퀀스 조회 빌딩블록 + 자동설정",
+          "status": "pending",
+          "files": [
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/OracleSequenceRepository.kt",
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfiguration.kt",
+            "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
+            "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfigurationTest.kt"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "JPA Auditing 자동설정",
+          "status": "pending",
+          "files": [
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfiguration.kt",
+            "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
+            "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfigurationTest.kt"
+          ]
+        }
+      ]
     },
     {
       "id": "HOJI-006",
