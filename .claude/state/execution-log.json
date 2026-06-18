@@ -34,5 +34,12 @@
     "prNumber": 2,
     "decision": "COMMENT",
     "timestamp": "2026-06-18T23:48:17+09:00"
+  },
+  {
+    "action": "merged",
+    "taskId": "HOJI-002",
+    "stepNumber": 1,
+    "prNumber": 2,
+    "timestamp": "2026-06-18T23:49:49+09:00"
   }
 ]

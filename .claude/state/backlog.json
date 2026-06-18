@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 11,
+    "version": 12,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-18T23:40:30+09:00"
   },
@@ -87,29 +87,19 @@
       "assignee": "jaese@hoji-20260618-233115",
       "assignedAt": "2026-06-18T23:31:15+09:00",
       "lockedBy": "jaese@hoji-20260618-233115",
-      "lockedAt": "2026-06-18T23:40:30+09:00",
+      "lockedAt": "2026-06-18T23:49:49+09:00",
       "lockTTL": 10800,
       "lockedFiles": [
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/DateTimeUtil.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/StringUtil.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/RandomUtil.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/FileUtil.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/ZipUtil.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/StringUtilTest.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/RandomUtilTest.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/DateTimeUtilTest.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/FileUtilTest.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/ZipUtilTest.kt",
         "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
         "hoji-common-core/src/test/kotlin/com/hoji/common/core/page/CustomPageRequestTest.kt"
       ],
       "planApprovedAt": "2026-06-18T23:34:54+09:00",
-      "currentStep": 1,
+      "currentStep": 2,
       "steps": [
         {
           "number": 1,
           "title": "common-core util",
-          "status": "pr_created",
+          "status": "merged",
           "prLineLimit": 600,
           "files": [
             "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/DateTimeUtil.kt",
@@ -123,7 +113,8 @@
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/FileUtilTest.kt",
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/ZipUtilTest.kt"
           ],
-          "prNumber": 2
+          "prNumber": 2,
+          "mergedAt": "2026-06-18T23:49:49+09:00"
         },
         {
           "number": 2,
@@ -136,11 +127,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 2,
+        "currentSkill": "aick-merge-pr",
+        "prNumber": null,
         "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T23:48:17+09:00"
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T23:49:49+09:00"
       }
     },
     "HOJI-003": {
