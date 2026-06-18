@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 23,
+    "version": 24,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T15:38:21Z"
+    "updatedAt": "2026-06-18T15:41:41Z"
   },
   "summary": {
     "total": 7,
@@ -167,14 +167,20 @@
       "id": "HOJI-004",
       "title": "common-jpa audit/converter",
       "description": "BaseDomain(JPA Auditing), SystemBaseDomain(actor→String decouple), YesNoType/YesNoConverter, Base64Converter(core재사용,jakarta M1)+테스트. 참조: 로컬스펙 common-jpa.md §1,§2.1~2.3",
-      "status": "todo",
+      "status": "in_progress",
       "type": "feature",
       "priority": "high",
       "phase": 2,
       "dependencies": [
         "HOJI-002"
       ],
-      "createdAt": "2026-06-18T22:34:51+09:00"
+      "createdAt": "2026-06-18T22:34:51+09:00",
+      "assignee": "jaese@hoji-20260618-154141",
+      "assignedAt": "2026-06-18T15:41:41Z",
+      "lockedBy": "jaese@hoji-20260618-154141",
+      "lockedAt": "2026-06-18T15:41:41Z",
+      "lockTTL": 3600,
+      "lockedFiles": []
     },
     {
       "id": "HOJI-005",
