@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 51,
+    "version": 52,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:55:27Z"
+    "updatedAt": "2026-06-18T23:56:48Z"
   },
   "summary": {
     "total": 7,
@@ -336,7 +336,7 @@
       "assignee": "jaese@hoji-20260618-234329",
       "assignedAt": "2026-06-18T23:43:29Z",
       "lockedBy": "jaese@hoji-20260618-234329",
-      "lockedAt": "2026-06-18T23:49:12Z",
+      "lockedAt": "2026-06-18T23:56:48Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "build.gradle.kts",
@@ -348,17 +348,18 @@
         "README.md"
       ],
       "planApprovedAt": "2026-06-18T23:47:05Z",
-      "currentStep": 1,
+      "currentStep": 2,
       "steps": [
         {
           "number": 1,
           "title": "maven-publish 발행 설정 확정 + 로컬 발행 검증",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "build.gradle.kts"
           ],
           "prLineLimit": 200,
-          "prNumber": 12
+          "prNumber": 12,
+          "mergedAt": "2026-06-18T23:56:48Z"
         },
         {
           "number": 2,
@@ -376,12 +377,12 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "currentStep": 1,
-        "prNumber": 12,
+        "currentSkill": "aick-merge-pr",
+        "currentStep": 2,
+        "prNumber": null,
         "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T23:55:27Z"
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T23:56:48Z"
       }
     }
   ]
