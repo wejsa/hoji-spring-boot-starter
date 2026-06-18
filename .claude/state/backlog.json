@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 49,
+    "version": 50,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:47:05Z"
+    "updatedAt": "2026-06-18T23:49:12Z"
   },
   "summary": {
     "total": 7,
@@ -336,7 +336,7 @@
       "assignee": "jaese@hoji-20260618-234329",
       "assignedAt": "2026-06-18T23:43:29Z",
       "lockedBy": "jaese@hoji-20260618-234329",
-      "lockedAt": "2026-06-18T23:47:05Z",
+      "lockedAt": "2026-06-18T23:49:12Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "build.gradle.kts",
@@ -353,11 +353,12 @@
         {
           "number": 1,
           "title": "maven-publish 발행 설정 확정 + 로컬 발행 검증",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "build.gradle.kts"
           ],
-          "prLineLimit": 200
+          "prLineLimit": 200,
+          "prNumber": 12
         },
         {
           "number": 2,
@@ -373,7 +374,15 @@
             "README.md"
           ]
         }
-      ]
+      ],
+      "workflowState": {
+        "currentSkill": "aick-impl",
+        "currentStep": 1,
+        "prNumber": 12,
+        "fixLoopCount": 0,
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T23:49:12Z"
+      }
     }
   ]
 }
