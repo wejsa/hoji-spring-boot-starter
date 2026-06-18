@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 22,
+    "version": 23,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T15:36:27Z"
+    "updatedAt": "2026-06-18T15:38:21Z"
   },
   "summary": {
     "total": 7,
@@ -128,7 +128,7 @@
       "id": "HOJI-003",
       "title": "common-core error 프레임워크",
       "description": "ErrorReason 인터페이스화, CommonErrorReason, GlobalExceptionHandler(@RestControllerAdvice, InternalProcess→500 B2, 4xx warn/5xx error B4), of() B1수정, CoreErrorAutoConfiguration+imports+테스트. 참조: common-co...",
-      "status": "in_progress",
+      "status": "done",
       "type": "feature",
       "priority": "high",
       "phase": 2,
@@ -136,17 +136,12 @@
         "HOJI-001"
       ],
       "createdAt": "2026-06-18T22:34:51+09:00",
-      "assignee": "jaese@hoji-20260619-000720",
-      "assignedAt": "2026-06-18T15:07:20Z",
-      "lockedBy": "jaese@hoji-20260619-000720",
-      "lockedAt": "2026-06-18T15:27:42Z",
+      "assignee": null,
+      "assignedAt": null,
+      "lockedBy": null,
+      "lockedAt": null,
       "lockTTL": 10800,
-      "lockedFiles": [
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/GlobalExceptionHandler.kt",
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/autoconfigure/CoreErrorAutoConfiguration.kt",
-        "hoji-common-core/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/GlobalExceptionHandlerTest.kt"
-      ],
+      "lockedFiles": [],
       "planApprovedAt": "2026-06-18T15:08:41Z",
       "currentStep": 2,
       "steps": [
@@ -160,17 +155,13 @@
         {
           "number": 2,
           "title": "GlobalExceptionHandler(B2·B4) + AutoConfiguration",
-          "status": "pr_created",
-          "prNumber": 5
+          "status": "merged",
+          "prNumber": 5,
+          "mergedAt": "2026-06-18T15:38:21Z"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 5,
-        "fixLoopCount": null,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T15:36:27Z"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-18T15:38:21Z"
     },
     {
       "id": "HOJI-004",

@@ -114,5 +114,17 @@
     "prNumber": 5,
     "decision": "COMMENT",
     "skill": "aick-review-pr"
+  },
+  {
+    "timestamp": "2026-06-18T15:38:21Z",
+    "action": "merged",
+    "taskId": "HOJI-003",
+    "stepNumber": 2,
+    "prNumber": 5
+  },
+  {
+    "timestamp": "2026-06-18T15:38:21Z",
+    "action": "task_completed",
+    "taskId": "HOJI-003"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": 2,
-    "updatedAt": "2026-06-18T15:00:21Z"
+    "version": 3,
+    "updatedAt": "2026-06-18T15:38:21Z"
   },
   "tasks": {
     "HOJI-001": {
@@ -22,6 +22,16 @@
       "priority": "high",
       "prNumber": 3,
       "completedAt": "2026-06-18T15:00:21Z",
+      "steps": 2
+    },
+    "HOJI-003": {
+      "id": "HOJI-003",
+      "title": "common-core error 프레임워크",
+      "phase": 2,
+      "type": "feature",
+      "priority": "high",
+      "prNumber": 5,
+      "completedAt": "2026-06-18T15:38:21Z",
       "steps": 2
     }
   }
