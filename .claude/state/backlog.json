@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 36,
+    "version": 37,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T22:40:16Z"
+    "updatedAt": "2026-06-18T22:45:50Z"
   },
   "summary": {
     "total": 7,
@@ -231,7 +231,7 @@
       "assignee": "jaese@hoji-20260618-161739",
       "assignedAt": "2026-06-18T16:17:39Z",
       "lockedBy": "jaese@hoji-20260618-161739",
-      "lockedAt": "2026-06-18T22:40:16Z",
+      "lockedAt": "2026-06-18T22:45:50Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfiguration.kt",
@@ -258,20 +258,21 @@
         {
           "number": 2,
           "title": "JPA Auditing 자동설정",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfiguration.kt",
             "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfigurationTest.kt"
-          ]
+          ],
+          "prNumber": 9
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-merge-pr",
-        "prNumber": null,
+        "currentSkill": "aick-impl",
+        "prNumber": 9,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T22:40:16Z"
+        "updatedAt": "2026-06-18T22:45:50Z"
       }
     },
     {
