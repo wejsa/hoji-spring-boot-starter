@@ -1,1 +1,2 @@
 com.hoji.common.jpa.autoconfigure.SequenceAutoConfiguration
+com.hoji.common.jpa.autoconfigure.JpaAuditingAutoConfiguration
