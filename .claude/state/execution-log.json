@@ -160,5 +160,13 @@
     "taskId": "HOJI-004",
     "stepNumber": 2,
     "prNumber": 7
+  },
+  {
+    "timestamp": "2026-06-18T16:12:21Z",
+    "action": "approved",
+    "decision": "COMMENT",
+    "taskId": "HOJI-004",
+    "stepNumber": 2,
+    "prNumber": 7
   }
 ]
