@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 43,
+    "version": 44,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:15:37Z"
+    "updatedAt": "2026-06-18T23:19:43Z"
   },
   "summary": {
     "total": 7,
@@ -282,32 +282,30 @@
       "assignee": "jaese@hoji-20260618-230134",
       "assignedAt": "2026-06-18T23:01:34Z",
       "lockedBy": "jaese@hoji-20260618-230134",
-      "lockedAt": "2026-06-18T23:15:37Z",
+      "lockedAt": "2026-06-18T23:19:43Z",
       "lockTTL": 7200,
       "lockedFiles": [
-        "hoji-common-security/build.gradle.kts",
-        "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthFilter.kt",
         "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthorizeRulesCustomizer.kt",
-        "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyProperties.kt",
         "hoji-common-security/src/main/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfiguration.kt",
         "hoji-common-security/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
-        "hoji-common-security/src/test/kotlin/com/hoji/common/security/ApiKeyAuthFilterTest.kt",
+        "hoji-common-security/build.gradle.kts",
         "hoji-common-security/src/test/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfigurationTest.kt"
       ],
       "planApprovedAt": "2026-06-18T23:03:33Z",
-      "currentStep": 1,
+      "currentStep": 2,
       "steps": [
         {
           "number": 1,
           "title": "API-Key 인증 프리미티브 (Properties + Filter)",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyProperties.kt",
             "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthFilter.kt",
             "hoji-common-security/build.gradle.kts",
             "hoji-common-security/src/test/kotlin/com/hoji/common/security/ApiKeyAuthFilterTest.kt"
           ],
-          "prNumber": 10
+          "prNumber": 10,
+          "mergedAt": "2026-06-18T23:19:43Z"
         },
         {
           "number": 2,
@@ -323,12 +321,12 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "currentStep": 1,
-        "prNumber": 10,
+        "currentSkill": "aick-merge-pr",
+        "currentStep": 2,
+        "prNumber": null,
         "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T23:15:37Z"
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T23:19:43Z"
       }
     },
     {
