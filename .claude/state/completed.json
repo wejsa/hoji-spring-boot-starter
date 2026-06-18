@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": 5,
-    "updatedAt": "2026-06-18T22:55:52Z"
+    "version": 6,
+    "updatedAt": "2026-06-18T23:42:30Z"
   },
   "tasks": {
     "HOJI-001": {
@@ -52,6 +52,16 @@
       "priority": "high",
       "prNumber": 9,
       "completedAt": "2026-06-18T22:55:52Z",
+      "steps": 2
+    },
+    "HOJI-006": {
+      "id": "HOJI-006",
+      "title": "common-security API-Key 인증",
+      "phase": 2,
+      "type": "feature",
+      "priority": "high",
+      "prNumber": 11,
+      "completedAt": "2026-06-18T23:42:30Z",
       "steps": 2
     }
   }
