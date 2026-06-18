@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 25,
+    "version": 26,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T15:43:28Z"
+    "updatedAt": "2026-06-18T15:52:17Z"
   },
   "summary": {
     "total": 7,
@@ -178,7 +178,7 @@
       "assignee": "jaese@hoji-20260618-154141",
       "assignedAt": "2026-06-18T15:41:41Z",
       "lockedBy": "jaese@hoji-20260618-154141",
-      "lockedAt": "2026-06-18T15:43:28Z",
+      "lockedAt": "2026-06-18T15:52:17Z",
       "lockTTL": 10800,
       "lockedFiles": [
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/BaseDomain.kt",
@@ -190,7 +190,8 @@
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/Base64Converter.kt",
         "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt",
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/JpaAuditingTestConfig.kt"
       ],
       "planApprovedAt": "2026-06-18T15:43:28Z",
       "currentStep": 1,
@@ -198,14 +199,15 @@
         {
           "number": 1,
           "title": "audit 베이스 도메인 + Auditing 테스트",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/BaseDomain.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/SystemBaseDomain.kt",
             "hoji-common-jpa/build.gradle.kts",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/BaseDomainTest.kt",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/SystemBaseDomainTest.kt"
-          ]
+          ],
+          "prNumber": 6
         },
         {
           "number": 2,
@@ -219,7 +221,15 @@
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
           ]
         }
-      ]
+      ],
+      "workflowState": {
+        "currentSkill": "aick-impl",
+        "lastCompletedSkill": null,
+        "prNumber": 6,
+        "fixLoopCount": 0,
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T15:52:17Z"
+      }
     },
     {
       "id": "HOJI-005",
