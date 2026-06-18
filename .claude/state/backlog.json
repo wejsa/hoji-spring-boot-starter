@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 47,
+    "version": 48,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:42:30Z"
+    "updatedAt": "2026-06-18T23:43:29Z"
   },
   "summary": {
     "total": 7,
@@ -323,7 +323,7 @@
       "id": "HOJI-007",
       "title": "배포·통합 검증",
       "description": "maven-publish 확정, ./gradlew publishToMavenLocal, 샘플 Boot3 앱에서 의존성 끌어 기동 스모크 테스트(수동), 3모듈 통합 build 최종 검증. 참조: REQUIREMENTS.md §7 DoD",
-      "status": "todo",
+      "status": "in_progress",
       "type": "chore",
       "priority": "low",
       "phase": 4,
@@ -332,7 +332,13 @@
         "HOJI-005",
         "HOJI-006"
       ],
-      "createdAt": "2026-06-18T22:34:51+09:00"
+      "createdAt": "2026-06-18T22:34:51+09:00",
+      "assignee": "jaese@hoji-20260618-234329",
+      "assignedAt": "2026-06-18T23:43:29Z",
+      "lockedBy": "jaese@hoji-20260618-234329",
+      "lockedAt": "2026-06-18T23:43:29Z",
+      "lockTTL": 3600,
+      "lockedFiles": []
     }
   ]
 }
