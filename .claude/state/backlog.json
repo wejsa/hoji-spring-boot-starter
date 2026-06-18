@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 35,
+    "version": 36,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T22:38:22Z"
+    "updatedAt": "2026-06-18T22:40:16Z"
   },
   "summary": {
     "total": 7,
@@ -231,22 +231,20 @@
       "assignee": "jaese@hoji-20260618-161739",
       "assignedAt": "2026-06-18T16:17:39Z",
       "lockedBy": "jaese@hoji-20260618-161739",
-      "lockedAt": "2026-06-18T22:38:22Z",
+      "lockedAt": "2026-06-18T22:40:16Z",
       "lockTTL": 7200,
       "lockedFiles": [
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/OracleSequenceRepository.kt",
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfiguration.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfiguration.kt",
         "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfigurationTest.kt"
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfigurationTest.kt"
       ],
-      "currentStep": 1,
+      "currentStep": 2,
       "planApprovedAt": "2026-06-18T16:22:53Z",
       "steps": [
         {
           "number": 1,
           "title": "시퀀스 조회 빌딩블록 + 자동설정",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/OracleSequenceRepository.kt",
@@ -254,7 +252,8 @@
             "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/SequenceAutoConfigurationTest.kt"
           ],
-          "prNumber": 8
+          "prNumber": 8,
+          "mergedAt": "2026-06-18T22:40:16Z"
         },
         {
           "number": 2,
@@ -268,11 +267,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 8,
+        "currentSkill": "aick-merge-pr",
+        "prNumber": null,
         "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T22:38:22Z"
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T22:40:16Z"
       }
     },
     {
