@@ -10,4 +10,6 @@ dependencies {
     // OracleSequenceMaxValueIncrementer (표준 javax.sql.DataSource 의존)
     api("org.springframework:spring-jdbc")
     compileOnly("org.springframework.boot:spring-boot-autoconfigure")
+    // @DataJpaTest 슬라이스용 인메모리 DB (버전은 Spring Boot BOM이 관리)
+    testRuntimeOnly("com.h2database:h2")
 }
