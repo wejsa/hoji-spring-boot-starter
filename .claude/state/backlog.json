@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 31,
+    "version": 32,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-18T16:05:15Z"
   },
@@ -220,14 +220,21 @@
       "id": "HOJI-005",
       "title": "common-jpa sequence/autoconfigure",
       "description": "SequenceRepository(DataSource·String decouple), JpaAuditingAutoConfiguration(AuditorAware 기본), SequenceAutoConfiguration+imports+테스트. 참조: 로컬스펙 common-jpa.md §2.4,§2.5",
-      "status": "todo",
+      "status": "in_progress",
       "type": "feature",
       "priority": "high",
       "phase": 2,
       "dependencies": [
         "HOJI-004"
       ],
-      "createdAt": "2026-06-18T22:34:51+09:00"
+      "createdAt": "2026-06-18T22:34:51+09:00",
+      "assignee": "jaese@hoji-20260618-161739",
+      "assignedAt": "2026-06-18T16:17:39Z",
+      "lockedBy": "jaese@hoji-20260618-161739",
+      "lockedAt": "2026-06-18T16:17:39Z",
+      "lockTTL": 3600,
+      "lockedFiles": [],
+      "currentStep": 1
     },
     {
       "id": "HOJI-006",
