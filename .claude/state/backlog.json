@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 7,
+    "version": 8,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:31:15+09:00"
+    "updatedAt": "2026-06-18T23:34:54+09:00"
   },
   "summary": {
     "total": 7,
@@ -87,9 +87,60 @@
       "assignee": "jaese@hoji-20260618-233115",
       "assignedAt": "2026-06-18T23:31:15+09:00",
       "lockedBy": "jaese@hoji-20260618-233115",
-      "lockedAt": "2026-06-18T23:31:15+09:00",
-      "lockTTL": 3600,
-      "lockedFiles": []
+      "lockedAt": "2026-06-18T23:34:54+09:00",
+      "lockTTL": 10800,
+      "lockedFiles": [
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/DateTimeUtil.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/StringUtil.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/RandomUtil.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/FileUtil.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/ZipUtil.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/StringUtilTest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/RandomUtilTest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/DateTimeUtilTest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/FileUtilTest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/ZipUtilTest.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/page/CustomPageRequestTest.kt"
+      ],
+      "planApprovedAt": "2026-06-18T23:34:54+09:00",
+      "currentStep": 1,
+      "steps": [
+        {
+          "number": 1,
+          "title": "common-core util",
+          "status": "pending",
+          "prLineLimit": 600,
+          "files": [
+            "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/DateTimeUtil.kt",
+            "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/StringUtil.kt",
+            "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/RandomUtil.kt",
+            "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/FileUtil.kt",
+            "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/ZipUtil.kt",
+            "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/StringUtilTest.kt",
+            "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/RandomUtilTest.kt",
+            "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/DateTimeUtilTest.kt",
+            "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/FileUtilTest.kt",
+            "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/ZipUtilTest.kt"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "common-core page",
+          "status": "pending",
+          "files": [
+            "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
+            "hoji-common-core/src/test/kotlin/com/hoji/common/core/page/CustomPageRequestTest.kt"
+          ]
+        }
+      ],
+      "workflowState": {
+        "currentSkill": "aick-plan",
+        "prNumber": null,
+        "fixLoopCount": 0,
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T23:34:54+09:00"
+      }
     },
     "HOJI-003": {
       "id": "HOJI-003",
