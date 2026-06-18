@@ -13,3 +13,8 @@
 
 # 원본 레거시 스펙 (내부 전용 — 공개 금지)
 docs/requirements/
+
+# Gradle 빌드 산출물
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
