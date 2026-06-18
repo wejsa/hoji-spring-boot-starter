@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "name": "hoji-spring-boot-starter",
+  "description": "내부 서비스 공통 도메인 비결합 빌딩블록을 일반화한 멀티모듈 Spring Boot 3 스타터 라이브러리 (core/jpa/security auto-configuration)",
+  "techStack": {
+    "backend": "spring-boot-kotlin",
+    "frontend": "none",
+    "database": "none",
+    "cache": "none",
+    "messageQueue": "none",
+    "infrastructure": "none"
+  },
+  "agents": {
+    "enabled": [
+      "code-reviewer",
+      "qa"
+    ],
+    "disabled": [
+      "db-designer"
+    ]
+  },
+  "conventions": {
+    "taskPrefix": "HOJI",
+    "branchStrategy": "git-flow",
+    "commitFormat": "conventional",
+    "prLineLimit": 500,
+    "testCoverage": 80,
+    "language": "ko",
+    "workflowProfile": "standard",
+    "skillProfile": "full"
+  },
+  "buildCommands": {
+    "build": "./gradlew build",
+    "test": "./gradlew test"
+  },
+  "hooks": {},
+  "tokenHints": {},
+  "metadata": {
+    "version": 1,
+    "createdAt": "2026-06-18T22:34:51+09:00",
+    "updatedAt": "2026-06-18T22:34:51+09:00"
+  },
+  "createdAt": "2026-06-18T22:34:51+09:00",
+  "kitVersion": "4.8.0",
+  "kitSource": "https://github.com/wejsa/ai-crew-kit"
+}

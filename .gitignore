@@ -1,0 +1,15 @@
+# Claude Code local settings (personal, not shared)
+.claude/settings.local.json
+
+# aick: 계획/임시 파일은 로컬 전용 (SKILL.md 명시 규칙)
+.claude/temp/
+
+# WSL Windows 메타데이터 노이즈
+*:Zone.Identifier
+
+# aick: 워크트리(상태 파일 경합 방지) + 머지 게이트 transient 신호
+.claude/worktrees/
+.claude/state/review-decisions.json*
+
+# 원본 레거시 스펙 (내부 전용 — 공개 금지)
+docs/requirements/

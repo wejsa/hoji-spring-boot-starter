@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "lastTaskNumber": 7,
+    "projectPrefix": "HOJI",
+    "version": 3,
+    "createdAt": "2026-06-18T22:34:51+09:00",
+    "updatedAt": "2026-06-18T22:51:12+09:00"
+  },
+  "summary": {
+    "total": 7,
+    "done": 0,
+    "inProgress": 1,
+    "review": 0,
+    "todo": 6
+  },
+  "phases": {
+    "1": {
+      "name": "기반/인프라",
+      "description": "멀티모듈 Gradle 스캐폴딩 + 공통 빌드 설정",
+      "status": "todo"
+    },
+    "2": {
+      "name": "핵심 도메인",
+      "description": "core/jpa/security 3개 공통 모듈 구현",
+      "status": "todo"
+    },
+    "4": {
+      "name": "운영/품질",
+      "description": "Maven 발행 + 샘플 앱 스모크 테스트 + 통합 검증",
+      "status": "todo"
+    }
+  },
+  "tasks": {
+    "HOJI-001": {
+      "id": "HOJI-001",
+      "title": "멀티모듈 Gradle 스캐폴딩",
+      "description": "settings/루트 build.gradle.kts(Java21·Kotlin2.0·Boot3.4 BOM, bootJar off/jar on, maven-publish), Gradle 8.x wrapper, 빈 모듈 3개 → ./gradlew build 통과. 참조: 로컬스펙 REQUIREMENTS.md §2,§6",
+      "status": "in_progress",
+      "type": "chore",
+      "priority": "high",
+      "phase": 1,
+      "dependencies": [],
+      "createdAt": "2026-06-18T22:34:51+09:00",
+      "assignee": "jaese@hoji-20260618-224951",
+      "assignedAt": "2026-06-18T22:49:51+09:00",
+      "lockedBy": "jaese@hoji-20260618-224951",
+      "lockedAt": "2026-06-18T22:51:12+09:00",
+      "lockTTL": 7200,
+      "lockedFiles": [
+        "settings.gradle.kts",
+        "build.gradle.kts",
+        "hoji-common-core/build.gradle.kts",
+        "hoji-common-jpa/build.gradle.kts",
+        "hoji-common-security/build.gradle.kts",
+        "gradle/wrapper/gradle-wrapper.properties"
+      ],
+      "planApprovedAt": "2026-06-18T22:51:12+09:00",
+      "currentStep": 1,
+      "steps": [
+        {
+          "number": 1,
+          "title": "멀티모듈 Gradle 스캐폴딩",
+          "description": "settings/루트/3모듈 build.gradle.kts + Gradle 8.x wrapper. 빈 모듈 ./gradlew build 통과.",
+          "status": "pending",
+          "files": [
+            "settings.gradle.kts",
+            "build.gradle.kts",
+            "hoji-common-core/build.gradle.kts",
+            "hoji-common-jpa/build.gradle.kts",
+            "hoji-common-security/build.gradle.kts",
+            "gradle/wrapper/gradle-wrapper.properties"
+          ],
+          "estimatedLines": 160,
+          "prLineLimit": 200
+        }
+      ]
+    },
+    "HOJI-002": {
+      "id": "HOJI-002",
+      "title": "common-core util/page",
+      "description": "Date/String(도메인전용함수삭제)/Random(SecureRandom유지)/File(B3삭제)/Zip(zip4j2.x재작성 M5)/CustomPageRequest(M6·M7·defaultSortProperty외부화)+단위테스트. 참조: 로컬스펙 common-core.md §1",
+      "status": "todo",
+      "type": "feature",
+      "priority": "high",
+      "phase": 2,
+      "dependencies": [
+        "HOJI-001"
+      ],
+      "createdAt": "2026-06-18T22:34:51+09:00"
+    },
+    "HOJI-003": {
+      "id": "HOJI-003",
+      "title": "common-core error 프레임워크",
+      "description": "ErrorReason 인터페이스화, CommonErrorReason, GlobalExceptionHandler(@RestControllerAdvice, InternalProcess→500 B2, 4xx warn/5xx error B4), of() B1수정, CoreErrorAutoConfiguration+imports+테스트. 참조: common-co...",
+      "status": "todo",
+      "type": "feature",
+      "priority": "high",
+      "phase": 2,
+      "dependencies": [
+        "HOJI-001"
+      ],
+      "createdAt": "2026-06-18T22:34:51+09:00"
+    },
+    "HOJI-004": {
+      "id": "HOJI-004",
+      "title": "common-jpa audit/converter",
+      "description": "BaseDomain(JPA Auditing), SystemBaseDomain(actor→String decouple), YesNoType/YesNoConverter, Base64Converter(core재사용,jakarta M1)+테스트. 참조: 로컬스펙 common-jpa.md §1,§2.1~2.3",
+      "status": "todo",
+      "type": "feature",
+      "priority": "high",
+      "phase": 2,
+      "dependencies": [
+        "HOJI-002"
+      ],
+      "createdAt": "2026-06-18T22:34:51+09:00"
+    },
+    "HOJI-005": {
+      "id": "HOJI-005",
+      "title": "common-jpa sequence/autoconfigure",
+      "description": "SequenceRepository(DataSource·String decouple), JpaAuditingAutoConfiguration(AuditorAware 기본), SequenceAutoConfiguration+imports+테스트. 참조: 로컬스펙 common-jpa.md §2.4,§2.5",
+      "status": "todo",
+      "type": "feature",
+      "priority": "high",
+      "phase": 2,
+      "dependencies": [
+        "HOJI-004"
+      ],
+      "createdAt": "2026-06-18T22:34:51+09:00"
+    },
+    "HOJI-006": {
+      "id": "HOJI-006",
+      "title": "common-security API-Key 인증",
+      "description": "ApiKeyProperties(prefix hoji.security B5), ApiKeyAuthFilter(jakarta.servlet M2), ApiKeyAuthorizeRulesCustomizer(확장점), Security6 SecurityFilterChain 재작성(M3)+imports+테스트. 참조: common-security.md",
+      "status": "todo",
+      "type": "feature",
+      "priority": "high",
+      "phase": 2,
+      "dependencies": [
+        "HOJI-001"
+      ],
+      "createdAt": "2026-06-18T22:34:51+09:00"
+    },
+    "HOJI-007": {
+      "id": "HOJI-007",
+      "title": "배포·통합 검증",
+      "description": "maven-publish 확정, ./gradlew publishToMavenLocal, 샘플 Boot3 앱에서 의존성 끌어 기동 스모크 테스트(수동), 3모듈 통합 build 최종 검증. 참조: REQUIREMENTS.md §7 DoD",
+      "status": "todo",
+      "type": "chore",
+      "priority": "low",
+      "phase": 4,
+      "dependencies": [
+        "HOJI-003",
+        "HOJI-005",
+        "HOJI-006"
+      ],
+      "createdAt": "2026-06-18T22:34:51+09:00"
+    }
+  }
+}
