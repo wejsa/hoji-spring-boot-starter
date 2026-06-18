@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 8,
+    "version": 9,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:34:54+09:00"
+    "updatedAt": "2026-06-18T23:40:30+09:00"
   },
   "summary": {
     "total": 7,
@@ -87,7 +87,7 @@
       "assignee": "jaese@hoji-20260618-233115",
       "assignedAt": "2026-06-18T23:31:15+09:00",
       "lockedBy": "jaese@hoji-20260618-233115",
-      "lockedAt": "2026-06-18T23:34:54+09:00",
+      "lockedAt": "2026-06-18T23:40:30+09:00",
       "lockTTL": 10800,
       "lockedFiles": [
         "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/DateTimeUtil.kt",
@@ -109,7 +109,7 @@
         {
           "number": 1,
           "title": "common-core util",
-          "status": "pending",
+          "status": "pr_created",
           "prLineLimit": 600,
           "files": [
             "hoji-common-core/src/main/kotlin/com/hoji/common/core/util/DateTimeUtil.kt",
@@ -122,7 +122,8 @@
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/DateTimeUtilTest.kt",
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/FileUtilTest.kt",
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/util/ZipUtilTest.kt"
-          ]
+          ],
+          "prNumber": 2
         },
         {
           "number": 2,
@@ -135,11 +136,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-plan",
-        "prNumber": null,
+        "currentSkill": "aick-impl",
+        "prNumber": 2,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T23:34:54+09:00"
+        "updatedAt": "2026-06-18T23:40:30+09:00"
       }
     },
     "HOJI-003": {

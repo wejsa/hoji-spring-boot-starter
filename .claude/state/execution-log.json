@@ -19,5 +19,12 @@
     "action": "task_completed",
     "taskId": "HOJI-001",
     "at": "2026-06-18T23:24:30+09:00"
+  },
+  {
+    "action": "pr_created",
+    "taskId": "HOJI-002",
+    "stepNumber": 1,
+    "prNumber": 2,
+    "timestamp": "2026-06-18T23:40:39+09:00"
   }
 ]
