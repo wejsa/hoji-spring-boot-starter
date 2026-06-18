@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 28,
+    "version": 29,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T16:01:57Z"
+    "updatedAt": "2026-06-18T16:05:15Z"
   },
   "summary": {
     "total": 7,
@@ -178,7 +178,7 @@
       "assignee": "jaese@hoji-20260618-154141",
       "assignedAt": "2026-06-18T15:41:41Z",
       "lockedBy": "jaese@hoji-20260618-154141",
-      "lockedAt": "2026-06-18T16:01:57Z",
+      "lockedAt": "2026-06-18T16:05:15Z",
       "lockTTL": 10800,
       "lockedFiles": [
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
@@ -207,23 +207,24 @@
         {
           "number": 2,
           "title": "컨버터(YesNo/Base64) + 테스트",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/Base64Converter.kt",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
-          ]
+          ],
+          "prNumber": 7
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-merge-pr",
-        "lastCompletedSkill": "aick-review-pr",
-        "prNumber": null,
+        "currentSkill": "aick-impl",
+        "lastCompletedSkill": "aick-merge-pr",
+        "prNumber": 7,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T16:01:57Z"
+        "updatedAt": "2026-06-18T16:05:15Z"
       }
     },
     {
