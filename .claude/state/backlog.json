@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 27,
+    "version": 28,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T16:00:10Z"
+    "updatedAt": "2026-06-18T16:01:57Z"
   },
   "summary": {
     "total": 7,
@@ -178,28 +178,22 @@
       "assignee": "jaese@hoji-20260618-154141",
       "assignedAt": "2026-06-18T15:41:41Z",
       "lockedBy": "jaese@hoji-20260618-154141",
-      "lockedAt": "2026-06-18T15:52:17Z",
+      "lockedAt": "2026-06-18T16:01:57Z",
       "lockTTL": 10800,
       "lockedFiles": [
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/BaseDomain.kt",
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/SystemBaseDomain.kt",
-        "hoji-common-jpa/build.gradle.kts",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/BaseDomainTest.kt",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/SystemBaseDomainTest.kt",
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/Base64Converter.kt",
         "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/JpaAuditingTestConfig.kt"
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
       ],
       "planApprovedAt": "2026-06-18T15:43:28Z",
-      "currentStep": 1,
+      "currentStep": 2,
       "steps": [
         {
           "number": 1,
           "title": "audit 베이스 도메인 + Auditing 테스트",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/BaseDomain.kt",
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/SystemBaseDomain.kt",
@@ -207,7 +201,8 @@
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/BaseDomainTest.kt",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/SystemBaseDomainTest.kt"
           ],
-          "prNumber": 6
+          "prNumber": 6,
+          "mergedAt": "2026-06-18T16:01:57Z"
         },
         {
           "number": 2,
@@ -223,12 +218,12 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "lastCompletedSkill": "aick-impl",
-        "prNumber": 6,
+        "currentSkill": "aick-merge-pr",
+        "lastCompletedSkill": "aick-review-pr",
+        "prNumber": null,
         "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T16:00:10Z"
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T16:01:57Z"
       }
     },
     {
