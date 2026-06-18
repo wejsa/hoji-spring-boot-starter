@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 16,
+    "version": 17,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T15:07:20Z"
+    "updatedAt": "2026-06-18T15:08:41Z"
   },
   "summary": {
     "total": 7,
@@ -139,9 +139,44 @@
       "assignee": "jaese@hoji-20260619-000720",
       "assignedAt": "2026-06-18T15:07:20Z",
       "lockedBy": "jaese@hoji-20260619-000720",
-      "lockedAt": "2026-06-18T15:07:20Z",
-      "lockTTL": 3600,
-      "lockedFiles": []
+      "lockedAt": "2026-06-18T15:08:41Z",
+      "lockTTL": 10800,
+      "lockedFiles": [
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ErrorReason.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/CommonErrorReason.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ErrorResponse.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ApplicationException.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/BadRequestException.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/ExternalServiceException.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/InternalProcessException.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/error/GlobalExceptionHandler.kt",
+        "hoji-common-core/src/main/kotlin/com/hoji/common/core/autoconfigure/CoreErrorAutoConfiguration.kt",
+        "hoji-common-core/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/InternalProcessExceptionTest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/CommonErrorReasonTest.kt",
+        "hoji-common-core/src/test/kotlin/com/hoji/common/core/error/GlobalExceptionHandlerTest.kt"
+      ],
+      "planApprovedAt": "2026-06-18T15:08:41Z",
+      "currentStep": 1,
+      "steps": [
+        {
+          "number": 1,
+          "title": "error 타입 + 예외 계층 (B1)",
+          "status": "pending"
+        },
+        {
+          "number": 2,
+          "title": "GlobalExceptionHandler(B2·B4) + AutoConfiguration",
+          "status": "pending"
+        }
+      ],
+      "workflowState": {
+        "currentSkill": "aick-plan",
+        "prNumber": null,
+        "fixLoopCount": null,
+        "lastReviewDecision": null,
+        "updatedAt": "2026-06-18T15:08:41Z"
+      }
     },
     {
       "id": "HOJI-004",
