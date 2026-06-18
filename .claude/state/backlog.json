@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 34,
+    "version": 35,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T16:05:15Z"
+    "updatedAt": "2026-06-18T22:38:22Z"
   },
   "summary": {
     "total": 7,
@@ -231,7 +231,7 @@
       "assignee": "jaese@hoji-20260618-161739",
       "assignedAt": "2026-06-18T16:17:39Z",
       "lockedBy": "jaese@hoji-20260618-161739",
-      "lockedAt": "2026-06-18T16:29:31Z",
+      "lockedAt": "2026-06-18T22:38:22Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/sequence/SequenceRepository.kt",
@@ -268,11 +268,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-impl",
+        "currentSkill": "aick-review-pr",
         "prNumber": 8,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T16:29:31Z"
+        "lastReviewDecision": "COMMENT",
+        "updatedAt": "2026-06-18T22:38:22Z"
       }
     },
     {
