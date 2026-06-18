@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 45,
+    "version": 46,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:29:40Z"
+    "updatedAt": "2026-06-18T23:38:26Z"
   },
   "summary": {
     "total": 7,
@@ -282,7 +282,7 @@
       "assignee": "jaese@hoji-20260618-230134",
       "assignedAt": "2026-06-18T23:01:34Z",
       "lockedBy": "jaese@hoji-20260618-230134",
-      "lockedAt": "2026-06-18T23:29:40Z",
+      "lockedAt": "2026-06-18T23:38:26Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "hoji-common-security/src/main/kotlin/com/hoji/common/security/ApiKeyAuthorizeRulesCustomizer.kt",
@@ -322,12 +322,12 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-impl",
+        "currentSkill": "aick-review-pr",
         "currentStep": 2,
         "prNumber": 11,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T23:29:40Z"
+        "lastReviewDecision": "COMMENT",
+        "updatedAt": "2026-06-18T23:38:26Z"
       }
     },
     {
