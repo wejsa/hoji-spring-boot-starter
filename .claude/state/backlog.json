@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 24,
+    "version": 25,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T15:41:41Z"
+    "updatedAt": "2026-06-18T15:43:28Z"
   },
   "summary": {
     "total": 7,
@@ -178,9 +178,48 @@
       "assignee": "jaese@hoji-20260618-154141",
       "assignedAt": "2026-06-18T15:41:41Z",
       "lockedBy": "jaese@hoji-20260618-154141",
-      "lockedAt": "2026-06-18T15:41:41Z",
-      "lockTTL": 3600,
-      "lockedFiles": []
+      "lockedAt": "2026-06-18T15:43:28Z",
+      "lockTTL": 10800,
+      "lockedFiles": [
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/BaseDomain.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/SystemBaseDomain.kt",
+        "hoji-common-jpa/build.gradle.kts",
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/BaseDomainTest.kt",
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/SystemBaseDomainTest.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
+        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/Base64Converter.kt",
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
+        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
+      ],
+      "planApprovedAt": "2026-06-18T15:43:28Z",
+      "currentStep": 1,
+      "steps": [
+        {
+          "number": 1,
+          "title": "audit 베이스 도메인 + Auditing 테스트",
+          "status": "pending",
+          "files": [
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/BaseDomain.kt",
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/audit/SystemBaseDomain.kt",
+            "hoji-common-jpa/build.gradle.kts",
+            "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/BaseDomainTest.kt",
+            "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/audit/SystemBaseDomainTest.kt"
+          ]
+        },
+        {
+          "number": 2,
+          "title": "컨버터(YesNo/Base64) + 테스트",
+          "status": "pending",
+          "files": [
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoType.kt",
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/YesNoConverter.kt",
+            "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/converter/Base64Converter.kt",
+            "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/YesNoConverterTest.kt",
+            "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/converter/Base64ConverterTest.kt"
+          ]
+        }
+      ]
     },
     {
       "id": "HOJI-005",
