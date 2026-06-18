@@ -2,14 +2,14 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 14,
+    "version": 15,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T14:58:42Z"
+    "updatedAt": "2026-06-18T15:00:21Z"
   },
   "summary": {
     "total": 7,
-    "done": 1,
-    "inProgress": 1,
+    "done": 2,
+    "inProgress": 0,
     "review": 0,
     "todo": 5
   },
@@ -76,7 +76,7 @@
       "id": "HOJI-002",
       "title": "common-core util/page",
       "description": "Date/String(도메인전용함수삭제)/Random(SecureRandom유지)/File(B3삭제)/Zip(zip4j2.x재작성 M5)/CustomPageRequest(M6·M7·defaultSortProperty외부화)+단위테스트. 참조: 로컬스펙 common-core.md §1",
-      "status": "in_progress",
+      "status": "done",
       "type": "feature",
       "priority": "high",
       "phase": 2,
@@ -84,15 +84,8 @@
         "HOJI-001"
       ],
       "createdAt": "2026-06-18T22:34:51+09:00",
-      "assignee": "jaese@hoji-20260618-233115",
-      "assignedAt": "2026-06-18T23:31:15+09:00",
-      "lockedBy": "jaese@hoji-20260618-233115",
-      "lockedAt": "2026-06-18T14:58:42Z",
       "lockTTL": 10800,
-      "lockedFiles": [
-        "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
-        "hoji-common-core/src/test/kotlin/com/hoji/common/core/page/CustomPageRequestTest.kt"
-      ],
+      "lockedFiles": [],
       "planApprovedAt": "2026-06-18T23:34:54+09:00",
       "currentStep": 2,
       "steps": [
@@ -119,21 +112,17 @@
         {
           "number": 2,
           "title": "common-core page",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "hoji-common-core/src/main/kotlin/com/hoji/common/core/page/CustomPageRequest.kt",
             "hoji-common-core/src/test/kotlin/com/hoji/common/core/page/CustomPageRequestTest.kt"
           ],
-          "prNumber": 3
+          "prNumber": 3,
+          "mergedAt": "2026-06-18T15:00:21Z"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 3,
-        "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T14:58:42Z"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-18T15:00:21Z"
     },
     "HOJI-003": {
       "id": "HOJI-003",

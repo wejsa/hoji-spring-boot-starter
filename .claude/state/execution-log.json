@@ -62,5 +62,18 @@
       "minor": 2
     },
     "timestamp": "2026-06-18T14:58:42Z"
+  },
+  {
+    "action": "merged",
+    "taskId": "HOJI-002",
+    "stepNumber": 2,
+    "prNumber": 3,
+    "timestamp": "2026-06-18T15:00:21Z"
+  },
+  {
+    "action": "task_completed",
+    "taskId": "HOJI-002",
+    "prNumber": 3,
+    "timestamp": "2026-06-18T15:00:21Z"
   }
 ]

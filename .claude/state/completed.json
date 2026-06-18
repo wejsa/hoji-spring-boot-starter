@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": 1,
-    "updatedAt": "2026-06-18T23:24:03+09:00"
+    "version": 2,
+    "updatedAt": "2026-06-18T15:00:21Z"
   },
   "tasks": {
     "HOJI-001": {
@@ -13,6 +13,16 @@
       "prNumber": 1,
       "completedAt": "2026-06-18T23:24:03+09:00",
       "steps": 1
+    },
+    "HOJI-002": {
+      "id": "HOJI-002",
+      "title": "common-core util/page",
+      "phase": 2,
+      "type": "feature",
+      "priority": "high",
+      "prNumber": 3,
+      "completedAt": "2026-06-18T15:00:21Z",
+      "steps": 2
     }
   }
 }
