@@ -7,5 +7,17 @@
     "prNumber": 1,
     "tier": "T3",
     "at": "2026-06-18T23:20:36+09:00"
+  },
+  {
+    "action": "merged",
+    "taskId": "HOJI-001",
+    "stepNumber": 1,
+    "prNumber": 1,
+    "at": "2026-06-18T23:24:30+09:00"
+  },
+  {
+    "action": "task_completed",
+    "taskId": "HOJI-001",
+    "at": "2026-06-18T23:24:30+09:00"
   }
 ]

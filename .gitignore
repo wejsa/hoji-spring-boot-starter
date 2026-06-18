@@ -7,9 +7,14 @@
 # WSL Windows 메타데이터 노이즈
 *:Zone.Identifier
 
-# aick: 워크트리(상태 파일 경합 방지) + 머지 게이트 transient 신호
+# aick: 워크트리(상태 파일 경합 방지) + transient 런타임 신호 (SSOT 아님 — 추적 제외)
 .claude/worktrees/
 .claude/state/review-decisions.json*
+.claude/state/hook-trigger-count
+.claude/state/hook-errors.log
+.claude/state/*.flag
+.claude/state/continuation-plan.md
+.claude/state/*-complete-intent.json
 
 # 원본 레거시 스펙 (내부 전용 — 공개 금지)
 docs/requirements/

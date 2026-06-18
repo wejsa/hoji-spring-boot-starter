@@ -2,14 +2,14 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 5,
+    "version": 6,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:20:21+09:00"
+    "updatedAt": "2026-06-18T23:24:03+09:00"
   },
   "summary": {
     "total": 7,
-    "done": 0,
-    "inProgress": 1,
+    "done": 1,
+    "inProgress": 0,
     "review": 0,
     "todo": 6
   },
@@ -17,7 +17,7 @@
     "1": {
       "name": "기반/인프라",
       "description": "멀티모듈 Gradle 스캐폴딩 + 공통 빌드 설정",
-      "status": "todo"
+      "status": "done"
     },
     "2": {
       "name": "핵심 도메인",
@@ -35,25 +35,18 @@
       "id": "HOJI-001",
       "title": "멀티모듈 Gradle 스캐폴딩",
       "description": "settings/루트 build.gradle.kts(Java21·Kotlin2.0·Boot3.4 BOM, bootJar off/jar on, maven-publish), Gradle 8.x wrapper, 빈 모듈 3개 → ./gradlew build 통과. 참조: 로컬스펙 REQUIREMENTS.md §2,§6",
-      "status": "in_progress",
+      "status": "done",
       "type": "chore",
       "priority": "high",
       "phase": 1,
       "dependencies": [],
       "createdAt": "2026-06-18T22:34:51+09:00",
-      "assignee": "jaese@hoji-20260618-224951",
-      "assignedAt": "2026-06-18T22:49:51+09:00",
-      "lockedBy": "jaese@hoji-20260618-224951",
-      "lockedAt": "2026-06-18T23:09:41+09:00",
+      "assignee": null,
+      "assignedAt": null,
+      "lockedBy": null,
+      "lockedAt": null,
       "lockTTL": 7200,
-      "lockedFiles": [
-        "settings.gradle.kts",
-        "build.gradle.kts",
-        "hoji-common-core/build.gradle.kts",
-        "hoji-common-jpa/build.gradle.kts",
-        "hoji-common-security/build.gradle.kts",
-        "gradle/wrapper/gradle-wrapper.properties"
-      ],
+      "lockedFiles": [],
       "planApprovedAt": "2026-06-18T22:51:12+09:00",
       "currentStep": 1,
       "steps": [
@@ -61,7 +54,7 @@
           "number": 1,
           "title": "멀티모듈 Gradle 스캐폴딩",
           "description": "settings/루트/3모듈 build.gradle.kts + Gradle 8.x wrapper. 빈 모듈 ./gradlew build 통과.",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "settings.gradle.kts",
             "build.gradle.kts",
@@ -72,18 +65,12 @@
           ],
           "estimatedLines": 160,
           "prLineLimit": 200,
-          "prNumber": 1
+          "prNumber": 1,
+          "mergedAt": "2026-06-18T23:24:03+09:00"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "lastCompletedSkill": "aick-review-pr",
-        "prNumber": 1,
-        "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "autoChainArgs": "1 --auto-fix",
-        "updatedAt": "2026-06-18T23:20:21+09:00"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-18T23:24:03+09:00"
     },
     "HOJI-002": {
       "id": "HOJI-002",

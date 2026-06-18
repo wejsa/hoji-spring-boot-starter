@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "version": 1,
+    "updatedAt": "2026-06-18T23:24:03+09:00"
+  },
+  "tasks": {
+    "HOJI-001": {
+      "id": "HOJI-001",
+      "title": "멀티모듈 Gradle 스캐폴딩",
+      "phase": 1,
+      "type": "chore",
+      "priority": "high",
+      "prNumber": 1,
+      "completedAt": "2026-06-18T23:24:03+09:00",
+      "steps": 1
+    }
+  }
+}
