@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 38,
+    "version": 39,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T22:54:02Z"
+    "updatedAt": "2026-06-18T22:55:52Z"
   },
   "summary": {
     "total": 7,
@@ -220,7 +220,7 @@
       "id": "HOJI-005",
       "title": "common-jpa sequence/autoconfigure",
       "description": "SequenceRepository(DataSource·String decouple), JpaAuditingAutoConfiguration(AuditorAware 기본), SequenceAutoConfiguration+imports+테스트. 참조: 로컬스펙 common-jpa.md §2.4,§2.5",
-      "status": "in_progress",
+      "status": "done",
       "type": "feature",
       "priority": "high",
       "phase": 2,
@@ -228,17 +228,13 @@
         "HOJI-004"
       ],
       "createdAt": "2026-06-18T22:34:51+09:00",
-      "assignee": "jaese@hoji-20260618-161739",
-      "assignedAt": "2026-06-18T16:17:39Z",
-      "lockedBy": "jaese@hoji-20260618-161739",
-      "lockedAt": "2026-06-18T22:45:50Z",
+      "assignee": null,
+      "assignedAt": null,
+      "lockedBy": null,
+      "lockedAt": null,
       "lockTTL": 7200,
-      "lockedFiles": [
-        "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfiguration.kt",
-        "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
-        "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfigurationTest.kt"
-      ],
-      "currentStep": 2,
+      "lockedFiles": [],
+      "currentStep": 3,
       "planApprovedAt": "2026-06-18T16:22:53Z",
       "steps": [
         {
@@ -258,22 +254,18 @@
         {
           "number": 2,
           "title": "JPA Auditing 자동설정",
-          "status": "pr_created",
+          "status": "merged",
           "files": [
             "hoji-common-jpa/src/main/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfiguration.kt",
             "hoji-common-jpa/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports",
             "hoji-common-jpa/src/test/kotlin/com/hoji/common/jpa/autoconfigure/JpaAuditingAutoConfigurationTest.kt"
           ],
-          "prNumber": 9
+          "prNumber": 9,
+          "mergedAt": "2026-06-18T22:55:52Z"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 9,
-        "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-18T22:54:02Z"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-18T22:55:52Z"
     },
     {
       "id": "HOJI-006",

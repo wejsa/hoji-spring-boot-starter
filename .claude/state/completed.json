@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": 4,
-    "updatedAt": "2026-06-18T15:38:21Z"
+    "version": 5,
+    "updatedAt": "2026-06-18T22:55:52Z"
   },
   "tasks": {
     "HOJI-001": {
@@ -42,6 +42,16 @@
       "priority": "high",
       "prNumber": 7,
       "completedAt": "2026-06-18T16:13:27Z",
+      "steps": 2
+    },
+    "HOJI-005": {
+      "id": "HOJI-005",
+      "title": "common-jpa sequence/autoconfigure",
+      "phase": 2,
+      "type": "feature",
+      "priority": "high",
+      "prNumber": 9,
+      "completedAt": "2026-06-18T22:55:52Z",
       "steps": 2
     }
   }

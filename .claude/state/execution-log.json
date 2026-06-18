@@ -216,5 +216,19 @@
     "taskId": "HOJI-005",
     "stepNumber": 2,
     "prNumber": 9
+  },
+  {
+    "timestamp": "2026-06-18T22:55:52Z",
+    "action": "merged",
+    "taskId": "HOJI-005",
+    "stepNumber": 2,
+    "prNumber": 9
+  },
+  {
+    "timestamp": "2026-06-18T22:55:52Z",
+    "action": "task_completed",
+    "taskId": "HOJI-005",
+    "stepNumber": 2,
+    "prNumber": 9
   }
 ]
