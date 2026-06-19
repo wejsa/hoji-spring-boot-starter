@@ -2,14 +2,14 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 65,
+    "version": 66,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T15:07:35Z"
+    "updatedAt": "2026-06-19T15:09:06Z"
   },
   "summary": {
     "total": 10,
-    "done": 8,
-    "inProgress": 1,
+    "done": 9,
+    "inProgress": 0,
     "review": 0,
     "todo": 1
   },
@@ -409,7 +409,7 @@
       "id": "HOJI-009",
       "title": "auto-config 순서 지정 방식 일관화",
       "description": "jpa(@AutoConfiguration after=클래스리터럴)와 security(문자열 beforeName) 순서 지정 방식 혼재를 한 가지로 통일. 동작 동일·유지보수 부채 제거.",
-      "status": "in_progress",
+      "status": "done",
       "type": "refactor",
       "priority": "low",
       "phase": 4,
@@ -418,31 +418,21 @@
         "HOJI-006"
       ],
       "createdAt": "2026-06-19T11:30:18Z",
-      "assignee": "jaese@hoji-20260619-145830",
-      "assignedAt": "2026-06-19T14:58:30Z",
-      "lockedBy": "jaese@hoji-20260619-145830",
-      "lockedAt": "2026-06-19T15:07:35Z",
       "lockTTL": 3600,
-      "lockedFiles": [
-        "hoji-common-security/src/main/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfiguration.kt"
-      ],
+      "lockedFiles": [],
       "currentStep": 1,
       "planApprovedAt": "2026-06-19T14:59:30Z",
       "steps": [
         {
           "number": 1,
           "title": "security 순서 지정 클래스 리터럴 통일",
-          "status": "pr_created",
-          "prNumber": 15
+          "status": "merged",
+          "prNumber": 15,
+          "mergedAt": "2026-06-19T15:09:06Z"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 15,
-        "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-19T15:07:35Z"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-19T15:09:06Z"
     },
     {
       "id": "HOJI-010",

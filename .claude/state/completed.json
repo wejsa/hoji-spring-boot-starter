@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": 8,
-    "updatedAt": "2026-06-18T23:42:30Z"
+    "version": 9,
+    "updatedAt": "2026-06-19T15:08:56Z"
   },
   "tasks": {
     "HOJI-001": {
@@ -82,6 +82,16 @@
       "priority": "medium",
       "prNumber": 14,
       "completedAt": "2026-06-19T14:53:42Z",
+      "steps": 1
+    },
+    "HOJI-009": {
+      "id": "HOJI-009",
+      "title": "auto-config 순서 지정 방식 일관화",
+      "phase": 4,
+      "type": "refactor",
+      "priority": "low",
+      "prNumber": 15,
+      "completedAt": "2026-06-19T15:08:56Z",
       "steps": 1
     }
   }
