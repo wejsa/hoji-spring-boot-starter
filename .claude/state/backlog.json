@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 67,
+    "version": 68,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T15:13:00Z"
+    "updatedAt": "2026-06-19T15:14:05Z"
   },
   "summary": {
     "total": 10,
@@ -449,9 +449,21 @@
       "assignee": "jaese@hoji-20260619-151300",
       "assignedAt": "2026-06-19T15:13:00Z",
       "lockedBy": "jaese@hoji-20260619-151300",
-      "lockedAt": "2026-06-19T15:13:00Z",
+      "lockedAt": "2026-06-19T15:14:05Z",
       "lockTTL": 3600,
-      "lockedFiles": []
+      "lockedFiles": [
+        "README.md"
+      ],
+      "planApprovedAt": "2026-06-19T15:14:05Z",
+      "currentStep": 1,
+      "steps": [
+        {
+          "number": 1,
+          "title": "README 라이선스 표기 Apache-2.0 정합화",
+          "status": "pending",
+          "prLineLimit": 100
+        }
+      ]
     }
   ]
 }
