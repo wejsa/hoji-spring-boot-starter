@@ -2,16 +2,16 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 61,
+    "version": 62,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-19T14:45:15Z"
   },
   "summary": {
     "total": 10,
     "done": 8,
-    "inProgress": 0,
+    "inProgress": 1,
     "review": 0,
-    "todo": 2
+    "todo": 1
   },
   "phases": {
     "1": {
@@ -409,7 +409,7 @@
       "id": "HOJI-009",
       "title": "auto-config 순서 지정 방식 일관화",
       "description": "jpa(@AutoConfiguration after=클래스리터럴)와 security(문자열 beforeName) 순서 지정 방식 혼재를 한 가지로 통일. 동작 동일·유지보수 부채 제거.",
-      "status": "todo",
+      "status": "in_progress",
       "type": "refactor",
       "priority": "low",
       "phase": 4,
@@ -417,7 +417,14 @@
         "HOJI-005",
         "HOJI-006"
       ],
-      "createdAt": "2026-06-19T11:30:18Z"
+      "createdAt": "2026-06-19T11:30:18Z",
+      "assignee": "jaese@hoji-20260619-145830",
+      "assignedAt": "2026-06-19T14:58:30Z",
+      "lockedBy": "jaese@hoji-20260619-145830",
+      "lockedAt": "2026-06-19T14:58:30Z",
+      "lockTTL": 3600,
+      "lockedFiles": [],
+      "currentStep": 1
     },
     {
       "id": "HOJI-010",
