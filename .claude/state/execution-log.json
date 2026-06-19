@@ -371,5 +371,18 @@
     },
     "note": "T3 Full (schema.sql sql-keyword): 0 CRITICAL/0 MAJOR, 2 MINOR advisory (self-PR)",
     "timestamp": "2026-06-19T15:02:30Z"
+  },
+  {
+    "action": "merged",
+    "taskId": "HOJI-008",
+    "stepNumber": 1,
+    "prNumber": 14,
+    "timestamp": "2026-06-19T14:53:42Z"
+  },
+  {
+    "action": "task_completed",
+    "taskId": "HOJI-008",
+    "prNumber": 14,
+    "timestamp": "2026-06-19T14:53:42Z"
   }
 ]

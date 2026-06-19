@@ -2,14 +2,14 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 60,
+    "version": 61,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-19T14:45:15Z"
   },
   "summary": {
     "total": 10,
-    "done": 7,
-    "inProgress": 1,
+    "done": 8,
+    "inProgress": 0,
     "review": 0,
     "todo": 2
   },
@@ -377,7 +377,7 @@
       "id": "HOJI-008",
       "title": "통합 스모크 행위 검증 추가",
       "description": "통합 스모크 모듈에 빈 존재 단언을 넘어 행위 검증 추가 — 트랜잭션 프록시 경로 실제 호출 1건 + 보안 deny-by-default 401 1건. 출처: 회고 L-004.",
-      "status": "in_progress",
+      "status": "done",
       "type": "test",
       "priority": "medium",
       "phase": 4,
@@ -385,33 +385,25 @@
         "HOJI-007"
       ],
       "createdAt": "2026-06-19T11:30:18Z",
-      "assignee": "jaese@hoji-20260619-143800",
-      "assignedAt": "2026-06-19T14:38:00Z",
-      "lockedBy": "jaese@hoji-20260619-143800",
-      "lockedAt": "2026-06-19T14:45:15Z",
+      "assignee": null,
+      "assignedAt": null,
+      "lockedBy": null,
+      "lockedAt": null,
       "lockTTL": 3600,
-      "lockedFiles": [
-        "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/StarterBehaviorSmokeTest.kt",
-        "hoji-smoke-test/src/test/resources/schema.sql",
-        "hoji-smoke-test/src/test/resources/application.yml"
-      ],
+      "lockedFiles": [],
       "currentStep": 1,
       "planApprovedAt": "2026-06-19T14:39:15Z",
       "steps": [
         {
           "number": 1,
           "title": "스모크 행위 검증(시퀀스 트랜잭션 프록시 호출 + deny-by-default 401)",
-          "status": "pr_created",
-          "prNumber": 14
+          "status": "merged",
+          "prNumber": 14,
+          "mergedAt": "2026-06-19T14:53:42Z"
         }
       ],
-      "workflowState": {
-        "currentSkill": "aick-review-pr",
-        "prNumber": 14,
-        "fixLoopCount": 0,
-        "lastReviewDecision": "COMMENT",
-        "updatedAt": "2026-06-19T15:02:30Z"
-      }
+      "workflowState": null,
+      "completedAt": "2026-06-19T14:53:42Z"
     },
     {
       "id": "HOJI-009",

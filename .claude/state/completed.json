@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": 7,
+    "version": 8,
     "updatedAt": "2026-06-18T23:42:30Z"
   },
   "tasks": {
@@ -73,6 +73,16 @@
       "prNumber": 13,
       "completedAt": "2026-06-19T00:25:01Z",
       "steps": 2
+    },
+    "HOJI-008": {
+      "id": "HOJI-008",
+      "title": "통합 스모크 행위 검증 추가",
+      "phase": 4,
+      "type": "test",
+      "priority": "medium",
+      "prNumber": 14,
+      "completedAt": "2026-06-19T14:53:42Z",
+      "steps": 1
     }
   }
 }
