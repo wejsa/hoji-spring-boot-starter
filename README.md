@@ -52,6 +52,66 @@ claude            # Claude Code 실행
 
 ---
 
+## 발행 및 소비
+
+### 로컬 발행 (publishToMavenLocal)
+
+```bash
+./gradlew publishToMavenLocal
+```
+
+3개 라이브러리 모듈이 각각 `~/.m2/repository/com/hoji/{module}/0.1.0-SNAPSHOT/`에 발행된다 — `*.jar`, `*-sources.jar`, `*-javadoc.jar`, `*.pom`. 통합 스모크 모듈(`hoji-smoke-test`)은 검증 전용이라 발행되지 않는다.
+
+> POM에는 `api(...)` 의존성이 compile scope로 기록되어 소비 서비스가 transitive로 확보한다 — 예: `hoji-common-jpa`를 의존하면 `hoji-common-core`가 자동으로 따라온다.
+
+### 소비 서비스 설정
+
+```kotlin
+// build.gradle.kts (소비 서비스)
+repositories { mavenLocal(); mavenCentral() }
+
+dependencies {
+    implementation("com.hoji:hoji-common-core:0.1.0-SNAPSHOT")
+    implementation("com.hoji:hoji-common-jpa:0.1.0-SNAPSHOT")
+    implementation("com.hoji:hoji-common-security:0.1.0-SNAPSHOT")
+}
+```
+
+```yaml
+# application.yml (소비 서비스) — 최소 활성 설정
+hoji:
+  security:
+    api-keys:                 # 비어 있으면 deny-by-default (모든 요청 401)
+      - client-id: sample-service
+        key: ${SAMPLE_API_KEY}
+        roles: [SERVICE]
+  jpa:
+    audit:
+      actor: ${spring.application.name:SYSTEM}   # @CreatedBy/@LastModifiedBy actor
+```
+
+### 통합 스모크 검증
+
+`hoji-smoke-test` 모듈이 3개 스타터를 단일 `@SpringBootTest` 컨텍스트에 조립해 auto-configuration 동시 기동과 핵심 빈 등록(전역 예외 핸들러 · AuditorAware · SequenceRepository · SecurityFilterChain)을 회귀로 검증한다.
+
+```bash
+./gradlew :hoji-smoke-test:test    # 조립 스모크만 실행
+./gradlew build                    # 4개 모듈 전체 빌드 + 테스트
+```
+
+#### 수동 샘플 앱 스모크 체크리스트
+
+별도 Boot 3 앱에서 mavenLocal 좌표로 실제 소비를 확인할 때:
+
+- [ ] `./gradlew publishToMavenLocal`로 3개 모듈 발행 확인 (`~/.m2/.../com/hoji/`)
+- [ ] 소비 앱에 `repositories { mavenLocal() }` + 3개 좌표 의존성 추가
+- [ ] 앱 기동 시 3개 auto-config 로딩 (충돌 · 빈 누락 없음)
+- [ ] API 키 헤더 없이 요청 → 401 (deny-by-default)
+- [ ] 유효 키 헤더로 요청 → 200, principal = `client-id`
+- [ ] 감사 컬럼(`@CreatedBy`)에 `actor` 값 기록 확인
+
+---
+
 ## 디렉토리 구조
 
 ```

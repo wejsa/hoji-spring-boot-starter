@@ -1,0 +1,17 @@
+# 통합 스모크 컨텍스트 최소 설정 — 인메모리 H2로 JPA(@EnableJpaAuditing) 인프라를 기동한다.
+spring:
+  datasource:
+    url: jdbc:h2:mem:hoji-smoke;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      # 라이브러리는 base 클래스(@MappedSuperclass)만 제공 — 관리 엔티티 없음, 스키마 생성 불필요
+      ddl-auto: none
+    open-in-view: false
+
+# deny-by-default — API 키를 주입하지 않아도 시큐리티 체인은 정상 기동(전면 deny)
+hoji:
+  security:
+    api-keys: []
