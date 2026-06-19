@@ -47,34 +47,37 @@ subprojects {
         withJavadocJar()
     }
 
-    // maven-publish 발행 확정: 각 모듈을 라이브러리(jar)로 mavenLocal/원격에 발행한다.
+    // maven-publish 발행 확정: 라이브러리 모듈을 jar로 mavenLocal/원격에 발행한다.
     // from(components["java"])가 jar + sources + javadoc + (io.spring.dependency-management가
     // 보강하는) 의존성/버전을 POM에 기록한다. api(...) 의존성은 compile scope로 노출되어
     // 소비 서비스가 transitive로 확보한다(예: jpa → common-core).
-    extensions.configure<PublishingExtension> {
-        publications {
-            register<MavenPublication>("library") {
-                from(components["java"])
-                // 좌표(groupId/artifactId/version)는 project의 group·name·version에서 자동 도출.
-                pom {
-                    name.set(project.name)
-                    description.set("도메인 비결합 공통 빌딩블록 Spring Boot 3 스타터 모듈 (${project.name})")
-                    url.set("https://github.com/wejsa/hoji-spring-boot-starter")
-                    licenses {
-                        license {
-                            name.set("The Apache License, Version 2.0")
-                            url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
-                        }
-                    }
-                    developers {
-                        developer {
-                            id.set("hoji")
-                            name.set("hoji")
-                        }
-                    }
-                    scm {
+    // 통합 스모크 모듈(hoji-smoke-test)은 검증 전용이라 publication을 등록하지 않는다(미발행 — HOJI-007 R3).
+    if (name != "hoji-smoke-test") {
+        extensions.configure<PublishingExtension> {
+            publications {
+                register<MavenPublication>("library") {
+                    from(components["java"])
+                    // 좌표(groupId/artifactId/version)는 project의 group·name·version에서 자동 도출.
+                    pom {
+                        name.set(project.name)
+                        description.set("도메인 비결합 공통 빌딩블록 Spring Boot 3 스타터 모듈 (${project.name})")
                         url.set("https://github.com/wejsa/hoji-spring-boot-starter")
-                        connection.set("scm:git:https://github.com/wejsa/hoji-spring-boot-starter.git")
+                        licenses {
+                            license {
+                                name.set("The Apache License, Version 2.0")
+                                url.set("https://www.apache.org/licenses/LICENSE-2.0.txt")
+                            }
+                        }
+                        developers {
+                            developer {
+                                id.set("hoji")
+                                name.set("hoji")
+                            }
+                        }
+                        scm {
+                            url.set("https://github.com/wejsa/hoji-spring-boot-starter")
+                            connection.set("scm:git:https://github.com/wejsa/hoji-spring-boot-starter.git")
+                        }
                     }
                 }
             }
