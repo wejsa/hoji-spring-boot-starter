@@ -2,7 +2,7 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 59,
+    "version": 60,
     "createdAt": "2026-06-18T22:34:51+09:00",
     "updatedAt": "2026-06-19T14:45:15Z"
   },
@@ -406,11 +406,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-impl",
+        "currentSkill": "aick-review-pr",
         "prNumber": 14,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
-        "updatedAt": "2026-06-19T14:45:15Z"
+        "lastReviewDecision": "COMMENT",
+        "updatedAt": "2026-06-19T15:02:30Z"
       }
     },
     {
