@@ -169,4 +169,4 @@ main (운영)
 
 ## 라이선스
 
-MIT License
+Apache License 2.0 — 자세한 내용은 [LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) 참조. POM(`maven-publish`) 발행 메타와 동일.
