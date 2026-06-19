@@ -328,5 +328,10 @@
     "taskId": "HOJI-007",
     "prNumber": 13,
     "timestamp": "2026-06-19T00:25:01Z"
+  },
+  {
+    "action": "retro_completed",
+    "taskId": "HOJI-007",
+    "timestamp": "2026-06-19T10:41:26Z"
   }
 ]

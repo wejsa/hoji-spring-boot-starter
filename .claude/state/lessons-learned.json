@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "version": 1,
+    "updatedAt": "2026-06-19T10:40:09Z"
+  },
+  "lessons": [
+    {
+      "id": "L-001",
+      "taskId": "HOJI-007",
+      "category": "architecture",
+      "title": "Kotlin final 클래스 + Spring CGLIB 프록시는 클래스 레벨 stereotype 필요",
+      "description": "Kotlin 클래스는 기본 final이라 Boot proxyTargetClass=true(CGLIB) 환경에서 메서드 레벨 @Transactional만으로는 kotlin-spring all-open이 클래스를 열지 못해 프록시 생성 실패 → 컨텍스트 기동 불가. @Transactional 등 stereotype을 클래스 레벨에 둬야 all-open이 클래스를 연다.",
+      "impact": "high",
+      "tags": ["kotlin", "spring", "proxy", "cglib", "transactional", "all-open"],
+      "appliedCount": 1,
+      "createdAt": "2026-06-19T10:40:09Z",
+      "updatedAt": "2026-06-19T10:40:09Z"
+    },
+    {
+      "id": "L-002",
+      "taskId": "HOJI-007",
+      "category": "architecture",
+      "title": "조건부 빈(@ConditionalOnSingleCandidate)은 auto-config 평가 순서에 의존",
+      "description": "@ConditionalOnSingleCandidate/@ConditionalOnBean은 평가 시점까지 등록된 빈 정의만 본다. DataSource를 등록하는 auto-config보다 먼저 평가되면 0 후보로 판정되어 빈이 누락된다. @AutoConfiguration(after=[DataSourceAutoConfiguration])로 순서를 고정해야 단일 후보 소비자에서도 정상 등록된다.",
+      "impact": "high",
+      "tags": ["spring", "autoconfiguration", "ordering", "conditional", "datasource"],
+      "appliedCount": 1,
+      "createdAt": "2026-06-19T10:40:09Z",
+      "updatedAt": "2026-06-19T10:40:09Z"
+    },
+    {
+      "id": "L-003",
+      "taskId": "HOJI-007",
+      "category": "process",
+      "title": "발행 제외 통합 스모크 모듈로 멀티모듈 조립을 회귀 고정",
+      "description": "라이브러리 멀티모듈에서 소비자 관점의 조립(여러 auto-config 동시 기동)을 검증하려면 publication에서 제외한 별도 스모크 모듈이 효과적이다. 실제로 머지 전 라이브러리 결함 2건(프록시 제약·auto-config 순서)을 컨텍스트 기동 단계에서 포착했다.",
+      "impact": "high",
+      "tags": ["gradle", "multimodule", "publishing", "smoke-test", "spring-boot-test"],
+      "appliedCount": 1,
+      "createdAt": "2026-06-19T10:40:09Z",
+      "updatedAt": "2026-06-19T10:40:09Z"
+    },
+    {
+      "id": "L-004",
+      "taskId": "HOJI-007",
+      "category": "quality",
+      "title": "스모크 테스트는 빈 존재만이 아니라 행위를 행사해야 커버리지가 산다",
+      "description": "여러 스타터를 한 컨텍스트에 조립하는 스모크가 빈 존재만 단언하면 컨텍스트 기동+등록 회귀는 잡지만 실제 프록시/트랜잭션 경로·deny-by-default 401 같은 런타임 결함은 놓친다. 핵심 빈 1~2개라도 행위를 실제 호출하는 단언을 추가하면 회귀 가치가 크게 올라간다.",
+      "impact": "medium",
+      "tags": ["test", "smoke-test", "integration", "coverage", "security"],
+      "appliedCount": 1,
+      "createdAt": "2026-06-19T10:40:09Z",
+      "updatedAt": "2026-06-19T10:40:09Z"
+    }
+  ]
+}
