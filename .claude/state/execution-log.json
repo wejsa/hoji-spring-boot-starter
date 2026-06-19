@@ -300,5 +300,12 @@
     "taskId": "HOJI-007",
     "stepNumber": 1,
     "prNumber": 12
+  },
+  {
+    "action": "pr_created",
+    "taskId": "HOJI-007",
+    "stepNumber": 2,
+    "prNumber": 13,
+    "timestamp": "2026-06-19T00:14:45Z"
   }
 ]

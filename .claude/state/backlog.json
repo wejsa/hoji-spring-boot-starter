@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 7,
     "projectPrefix": "HOJI",
-    "version": 52,
+    "version": 53,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-18T23:56:48Z"
+    "updatedAt": "2026-06-19T00:14:37Z"
   },
   "summary": {
     "total": 7,
@@ -336,7 +336,7 @@
       "assignee": "jaese@hoji-20260618-234329",
       "assignedAt": "2026-06-18T23:43:29Z",
       "lockedBy": "jaese@hoji-20260618-234329",
-      "lockedAt": "2026-06-18T23:56:48Z",
+      "lockedAt": "2026-06-19T00:14:37Z",
       "lockTTL": 7200,
       "lockedFiles": [
         "build.gradle.kts",
@@ -364,7 +364,7 @@
         {
           "number": 2,
           "title": "통합 스모크 검증 모듈 + 발행/소비 가이드(README)",
-          "status": "pending",
+          "status": "pr_created",
           "files": [
             "settings.gradle.kts",
             "build.gradle.kts",
@@ -373,16 +373,17 @@
             "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/StarterCompositionSmokeTest.kt",
             "hoji-smoke-test/src/test/resources/application.yml",
             "README.md"
-          ]
+          ],
+          "prNumber": 13
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-merge-pr",
+        "currentSkill": "aick-impl",
         "currentStep": 2,
-        "prNumber": null,
+        "prNumber": 13,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-18T23:56:48Z"
+        "updatedAt": "2026-06-19T00:14:37Z"
       }
     }
   ]
