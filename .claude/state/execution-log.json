@@ -448,5 +448,18 @@
     "tier": "T0",
     "note": "T0 Trivial (0-agent direct review): docs license표기 정합, CRITICAL 0 (self-PR)",
     "timestamp": "2026-06-19T15:19:46Z"
+  },
+  {
+    "action": "merged",
+    "taskId": "HOJI-010",
+    "stepNumber": 1,
+    "prNumber": 16,
+    "timestamp": "2026-06-19T15:21:16Z"
+  },
+  {
+    "action": "task_completed",
+    "taskId": "HOJI-010",
+    "prNumber": 16,
+    "timestamp": "2026-06-19T15:21:16Z"
   }
 ]

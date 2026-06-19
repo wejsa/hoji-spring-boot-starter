@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": 9,
-    "updatedAt": "2026-06-19T15:08:56Z"
+    "version": 10,
+    "updatedAt": "2026-06-19T15:21:16Z"
   },
   "tasks": {
     "HOJI-001": {
@@ -92,6 +92,16 @@
       "priority": "low",
       "prNumber": 15,
       "completedAt": "2026-06-19T15:08:56Z",
+      "steps": 1
+    },
+    "HOJI-010": {
+      "id": "HOJI-010",
+      "title": "README 라이선스 표기 정합화",
+      "phase": 4,
+      "type": "docs",
+      "priority": "low",
+      "prNumber": 16,
+      "completedAt": "2026-06-19T15:21:16Z",
       "steps": 1
     }
   }
