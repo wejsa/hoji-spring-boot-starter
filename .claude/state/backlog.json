@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 63,
+    "version": 64,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T14:45:15Z"
+    "updatedAt": "2026-06-19T15:04:26Z"
   },
   "summary": {
     "total": 10,
@@ -421,7 +421,7 @@
       "assignee": "jaese@hoji-20260619-145830",
       "assignedAt": "2026-06-19T14:58:30Z",
       "lockedBy": "jaese@hoji-20260619-145830",
-      "lockedAt": "2026-06-19T14:59:30Z",
+      "lockedAt": "2026-06-19T15:04:26Z",
       "lockTTL": 3600,
       "lockedFiles": [
         "hoji-common-security/src/main/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfiguration.kt"
@@ -432,15 +432,16 @@
         {
           "number": 1,
           "title": "security 순서 지정 클래스 리터럴 통일",
-          "status": "pending"
+          "status": "pr_created",
+          "prNumber": 15
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-plan",
-        "prNumber": null,
+        "currentSkill": "aick-impl",
+        "prNumber": 15,
         "fixLoopCount": 0,
         "lastReviewDecision": null,
-        "updatedAt": "2026-06-19T14:59:30Z"
+        "updatedAt": "2026-06-19T15:04:26Z"
       }
     },
     {
