@@ -384,5 +384,11 @@
     "taskId": "HOJI-008",
     "prNumber": 14,
     "timestamp": "2026-06-19T14:53:42Z"
+  },
+  {
+    "action": "plan_approved",
+    "taskId": "HOJI-009",
+    "steps": 1,
+    "timestamp": "2026-06-19T14:59:30Z"
   }
 ]
