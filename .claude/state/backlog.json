@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 64,
+    "version": 65,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T15:04:26Z"
+    "updatedAt": "2026-06-19T15:07:35Z"
   },
   "summary": {
     "total": 10,
@@ -421,7 +421,7 @@
       "assignee": "jaese@hoji-20260619-145830",
       "assignedAt": "2026-06-19T14:58:30Z",
       "lockedBy": "jaese@hoji-20260619-145830",
-      "lockedAt": "2026-06-19T15:04:26Z",
+      "lockedAt": "2026-06-19T15:07:35Z",
       "lockTTL": 3600,
       "lockedFiles": [
         "hoji-common-security/src/main/kotlin/com/hoji/common/security/autoconfigure/ApiKeySecurityAutoConfiguration.kt"
@@ -437,11 +437,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-impl",
+        "currentSkill": "aick-review-pr",
         "prNumber": 15,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
-        "updatedAt": "2026-06-19T15:04:26Z"
+        "lastReviewDecision": "COMMENT",
+        "updatedAt": "2026-06-19T15:07:35Z"
       }
     },
     {
