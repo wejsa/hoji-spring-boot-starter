@@ -2,16 +2,16 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 66,
+    "version": 67,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T15:09:06Z"
+    "updatedAt": "2026-06-19T15:13:00Z"
   },
   "summary": {
     "total": 10,
     "done": 9,
-    "inProgress": 0,
+    "inProgress": 1,
     "review": 0,
-    "todo": 1
+    "todo": 0
   },
   "phases": {
     "1": {
@@ -438,14 +438,20 @@
       "id": "HOJI-010",
       "title": "README 라이선스 표기 정합화",
       "description": "README 하단 라이선스 표기 MIT→Apache-2.0으로 수정해 POM(Apache-2.0)과 정합. 소비자 혼란 제거.",
-      "status": "todo",
+      "status": "in_progress",
       "type": "docs",
       "priority": "low",
       "phase": 4,
       "dependencies": [
         "HOJI-007"
       ],
-      "createdAt": "2026-06-19T11:30:18Z"
+      "createdAt": "2026-06-19T11:30:18Z",
+      "assignee": "jaese@hoji-20260619-151300",
+      "assignedAt": "2026-06-19T15:13:00Z",
+      "lockedBy": "jaese@hoji-20260619-151300",
+      "lockedAt": "2026-06-19T15:13:00Z",
+      "lockTTL": 3600,
+      "lockedFiles": []
     }
   ]
 }
