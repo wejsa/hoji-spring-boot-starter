@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "lastTaskNumber": 7,
+    "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 55,
+    "version": 56,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T00:20:52Z"
+    "updatedAt": "2026-06-19T11:30:18Z"
   },
   "summary": {
-    "total": 7,
+    "total": 10,
     "done": 7,
     "inProgress": 0,
     "review": 0,
-    "todo": 0
+    "todo": 3
   },
   "phases": {
     "1": {
@@ -27,7 +27,7 @@
     "4": {
       "name": "운영/품질",
       "description": "Maven 발행 + 샘플 앱 스모크 테스트 + 통합 검증",
-      "status": "done"
+      "status": "in_progress"
     }
   },
   "tasks": [
@@ -372,6 +372,46 @@
       ],
       "workflowState": null,
       "completedAt": "2026-06-19T00:25:01Z"
+    },
+    {
+      "id": "HOJI-008",
+      "title": "통합 스모크 행위 검증 추가",
+      "description": "통합 스모크 모듈에 빈 존재 단언을 넘어 행위 검증 추가 — 트랜잭션 프록시 경로 실제 호출 1건 + 보안 deny-by-default 401 1건. 출처: 회고 L-004.",
+      "status": "todo",
+      "type": "test",
+      "priority": "medium",
+      "phase": 4,
+      "dependencies": [
+        "HOJI-007"
+      ],
+      "createdAt": "2026-06-19T11:30:18Z"
+    },
+    {
+      "id": "HOJI-009",
+      "title": "auto-config 순서 지정 방식 일관화",
+      "description": "jpa(@AutoConfiguration after=클래스리터럴)와 security(문자열 beforeName) 순서 지정 방식 혼재를 한 가지로 통일. 동작 동일·유지보수 부채 제거.",
+      "status": "todo",
+      "type": "refactor",
+      "priority": "low",
+      "phase": 4,
+      "dependencies": [
+        "HOJI-005",
+        "HOJI-006"
+      ],
+      "createdAt": "2026-06-19T11:30:18Z"
+    },
+    {
+      "id": "HOJI-010",
+      "title": "README 라이선스 표기 정합화",
+      "description": "README 하단 라이선스 표기 MIT→Apache-2.0으로 수정해 POM(Apache-2.0)과 정합. 소비자 혼란 제거.",
+      "status": "todo",
+      "type": "docs",
+      "priority": "low",
+      "phase": 4,
+      "dependencies": [
+        "HOJI-007"
+      ],
+      "createdAt": "2026-06-19T11:30:18Z"
     }
   ]
 }

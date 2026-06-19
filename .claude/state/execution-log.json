@@ -333,5 +333,21 @@
     "action": "retro_completed",
     "taskId": "HOJI-007",
     "timestamp": "2026-06-19T10:41:26Z"
+  },
+  {
+    "action": "retro_completed",
+    "mode": "summary",
+    "timestamp": "2026-06-19T11:30:18Z"
+  },
+  {
+    "action": "tasks_added",
+    "taskIds": [
+      "HOJI-008",
+      "HOJI-009",
+      "HOJI-010"
+    ],
+    "source": "retro-summary",
+    "note": "user-requested improvement items to backlog",
+    "timestamp": "2026-06-19T11:30:18Z"
   }
 ]
