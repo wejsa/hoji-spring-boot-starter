@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 69,
+    "version": 70,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T15:15:57Z"
+    "updatedAt": "2026-06-19T15:19:46Z"
   },
   "summary": {
     "total": 10,
@@ -449,7 +449,7 @@
       "assignee": "jaese@hoji-20260619-151300",
       "assignedAt": "2026-06-19T15:13:00Z",
       "lockedBy": "jaese@hoji-20260619-151300",
-      "lockedAt": "2026-06-19T15:15:57Z",
+      "lockedAt": "2026-06-19T15:19:46Z",
       "lockTTL": 3600,
       "lockedFiles": [
         "README.md"
@@ -466,11 +466,11 @@
         }
       ],
       "workflowState": {
-        "currentSkill": "aick-impl",
+        "currentSkill": "aick-review-pr",
         "prNumber": 16,
         "fixLoopCount": 0,
-        "lastReviewDecision": null,
-        "updatedAt": "2026-06-19T15:15:57Z"
+        "lastReviewDecision": "COMMENT",
+        "updatedAt": "2026-06-19T15:19:46Z"
       }
     }
   ]

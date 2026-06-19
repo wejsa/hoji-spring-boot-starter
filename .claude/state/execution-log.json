@@ -438,5 +438,15 @@
     "stepNumber": 1,
     "prNumber": 16,
     "timestamp": "2026-06-19T15:15:57Z"
+  },
+  {
+    "action": "reviewed",
+    "taskId": "HOJI-010",
+    "stepNumber": 1,
+    "prNumber": 16,
+    "decision": "COMMENT",
+    "tier": "T0",
+    "note": "T0 Trivial (0-agent direct review): docs license표기 정합, CRITICAL 0 (self-PR)",
+    "timestamp": "2026-06-19T15:19:46Z"
   }
 ]
