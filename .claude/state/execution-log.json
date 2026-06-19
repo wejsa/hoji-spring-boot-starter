@@ -349,5 +349,12 @@
     "source": "retro-summary",
     "note": "user-requested improvement items to backlog",
     "timestamp": "2026-06-19T11:30:18Z"
+  },
+  {
+    "action": "pr_created",
+    "taskId": "HOJI-008",
+    "stepNumber": 1,
+    "prNumber": 14,
+    "timestamp": "2026-06-19T14:45:27Z"
   }
 ]
