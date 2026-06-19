@@ -2,9 +2,9 @@
   "metadata": {
     "lastTaskNumber": 10,
     "projectPrefix": "HOJI",
-    "version": 57,
+    "version": 58,
     "createdAt": "2026-06-18T22:34:51+09:00",
-    "updatedAt": "2026-06-19T14:38:00Z"
+    "updatedAt": "2026-06-19T14:39:15Z"
   },
   "summary": {
     "total": 10,
@@ -388,10 +388,22 @@
       "assignee": "jaese@hoji-20260619-143800",
       "assignedAt": "2026-06-19T14:38:00Z",
       "lockedBy": "jaese@hoji-20260619-143800",
-      "lockedAt": "2026-06-19T14:38:00Z",
+      "lockedAt": "2026-06-19T14:39:15Z",
       "lockTTL": 3600,
-      "lockedFiles": [],
-      "currentStep": 1
+      "lockedFiles": [
+        "hoji-smoke-test/src/test/kotlin/com/hoji/smoke/StarterBehaviorSmokeTest.kt",
+        "hoji-smoke-test/src/test/resources/schema.sql",
+        "hoji-smoke-test/src/test/resources/application.yml"
+      ],
+      "currentStep": 1,
+      "planApprovedAt": "2026-06-19T14:39:15Z",
+      "steps": [
+        {
+          "number": 1,
+          "title": "스모크 행위 검증(시퀀스 트랜잭션 프록시 호출 + deny-by-default 401)",
+          "status": "pending"
+        }
+      ]
     },
     {
       "id": "HOJI-009",
