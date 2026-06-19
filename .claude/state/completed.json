@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": 6,
+    "version": 7,
     "updatedAt": "2026-06-18T23:42:30Z"
   },
   "tasks": {
@@ -62,6 +62,16 @@
       "priority": "high",
       "prNumber": 11,
       "completedAt": "2026-06-18T23:42:30Z",
+      "steps": 2
+    },
+    "HOJI-007": {
+      "id": "HOJI-007",
+      "title": "배포·통합 검증",
+      "phase": 4,
+      "type": "chore",
+      "priority": "low",
+      "prNumber": 13,
+      "completedAt": "2026-06-19T00:25:01Z",
       "steps": 2
     }
   }
