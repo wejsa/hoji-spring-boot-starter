@@ -7,7 +7,7 @@ plugins {
 
 subprojects {
     group = "com.hoji"
-    version = "0.1.0-SNAPSHOT"
+    version = "0.1.0"
 
     apply(plugin = "org.jetbrains.kotlin.jvm")
     apply(plugin = "org.jetbrains.kotlin.plugin.spring")
